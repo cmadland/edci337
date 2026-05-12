@@ -14,7 +14,7 @@
 <item>
   <title>May 11, 2026</title>
   <dc:creator>Colin Madland</dc:creator>
-  <link>https://cmadland.github.io/edci337/posts/post-with-code/</link>
+  <link>https://cmadland.github.io/edci337/posts/may-11/</link>
   <description><![CDATA[ 
 
 
@@ -88,30 +88,9 @@
 
  ]]></description>
   <category>summer 2026</category>
-  <guid>https://cmadland.github.io/edci337/posts/post-with-code/</guid>
+  <guid>https://cmadland.github.io/edci337/posts/may-11/</guid>
   <pubDate>Mon, 11 May 2026 07:00:00 GMT</pubDate>
-  <media:content url="https://cmadland.github.io/edci337/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://cmadland.github.io/edci337/posts/welcome/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://cmadland.github.io/edci337/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://cmadland.github.io/edci337/posts/welcome/</guid>
-  <pubDate>Fri, 08 May 2026 07:00:00 GMT</pubDate>
+  <media:content url="https://cmadland.github.io/edci337/posts/may-11/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
