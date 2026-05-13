@@ -1,5 +1,5 @@
 ---
-title: "May 11, 2026"
+title: "Week 1"
 author: "Colin Madland"
 date: "2026-05-11"
 categories: [summer 2026]
