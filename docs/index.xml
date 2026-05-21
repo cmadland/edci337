@@ -10,7 +10,17 @@
 <atom:link href="https://cmadland.github.io/edci337/index.xml" rel="self" type="application/rss+xml"/>
 <description>EDCI 337 Instructor Posts</description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Sun, 17 May 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 20 May 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Week 2 - May 20</title>
+  <dc:creator>Colin Madland</dc:creator>
+  <link>https://cmadland.github.io/edci337/posts/may-20/</link>
+  <description><![CDATA[ Hi everyone! I trust you had a good long weekend! ]]></description>
+  <category>summer 2026</category>
+  <guid>https://cmadland.github.io/edci337/posts/may-20/</guid>
+  <pubDate>Wed, 20 May 2026 07:00:00 GMT</pubDate>
+  <media:content url="https://cmadland.github.io/edci337/posts/may-20/bike.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Long Weekend Update</title>
   <dc:creator>Colin Madland</dc:creator>

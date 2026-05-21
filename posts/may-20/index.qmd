@@ -1,0 +1,38 @@
+---
+title: "Week 2 - May 20"
+author: "Colin Madland"
+date: "2026-05-20"
+categories: [summer 2026]
+image: "bike.jpg"
+image-alt: "Black Surly gravel bike propped against a trail sign. In the background is a very blue sky and Okanagan Lake. Beyond the lake are the Mountains of the Okanagan Highlands."
+license: CC-BY
+---
+
+Hi everyone! I trust you had a good long weekend!
+
+I apologize for the late update post for this week.
+
+## Multimedia Story DRAFT
+
+(Formerly titled Multimedia Story #1)
+
+I've published details regarding your first big assignment, due Monday, May 25.
+
+I recognize this is a quick turnaround, but please know that I am interested in seeing how you are progressing by Monday and am very much expecting this to be a work in progress! 
+
+
+::: {.callout}
+
+I will absolutely remember that this has been a goofy start to the course, especially given the fact that several of you are still waiting for your blogs to be properly set up, AND that the course website was unavailable for several hours yesterday and has been super slow and flaky today due to a DDOS attack on our web host.
+
+:::
+
+## Reading and tasks for this week
+
+- By now you should have read and explored the resources in the '[Theories of Multimedia Learning](https://edtechuvic.ca/edci337/2025/09/05/theories-of-multimedia-learning/)' post. This is a critical post as it sets the stage for the rest of the course.
+- This week, focus on '[Text and Image...](https://edtechuvic.ca/edci337/2025/09/11/text-and-image-the-sum-is-greater-than-its-parts/)'
+- You may find it helpful to peek ahead at '[Storytelling](https://edtechuvic.ca/edci337/2025/09/14/storytelling/)' and '[Design Process](https://edtechuvic.ca/edci337/2025/10/06/design-process/)' while you are planning your Multimedia story draft. However, do not spend too much time on these as we will discuss them later.
+- Please ensure that you have signed up for a Learning Pod and have set a meeting time. You should have met once by now to discuss course ideas and concepts. You should also use your Learning Pod to help you plan and execute your adventure! (Linked in Brightspace)
+- If you haven't yet done so, please complete the Learning Pathways Survey. (Linked in Brightspace)
+
+As always, I'm here to support you! Please let me know by email if you are having difficulty. [Feel free to book a meeting with me](https://calendar.proton.me/bookings#ds0BflsDPBRrqaOCr3hDYlrp0Icad1HYmZU-hjUqdiY=) either individually or as a Learning Pod.
