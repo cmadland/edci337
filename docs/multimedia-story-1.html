@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Colin Madland">
 
-<title>Home – EDCI337 Mirror Site</title>
+<title>Multimedia Story DRAFT – EDCI337 Mirror Site</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -72,73 +71,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="EDCI337 Mirror Site" href="index.xml" data-external="1"></head>
+</head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -182,7 +123,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./multimedia-story-1.html">Assignments</a></li><li class="breadcrumb-item"><a href="./multimedia-story-1.html">Multimedia Story DRAFT</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -192,23 +133,7 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Home</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-body">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -220,7 +145,7 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -258,7 +183,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./multimedia-story-1.html" class="sidebar-item-text sidebar-link">
+  <a href="./multimedia-story-1.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Multimedia Story DRAFT</span></a>
   </div>
 </li>
@@ -269,115 +194,85 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c3VtbWVyJTIwMjAyNg==">summer 2026 <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="c3VtbWVyJTIwMjAyNg==" data-listing-date-sort="1779260400000" data-listing-file-modified-sort="1779335538811" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
-<div class="thumbnail"><a href="./posts/may-20/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/may-20/bike.jpg" class="thumbnail-image" alt="Black Surly gravel bike propped against a trail sign. In the background is a very blue sky and Okanagan Lake. Beyond the lake are the Mountains of the Okanagan Highlands.">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/may-20/index.html" class="no-external">Week 2 - May 20</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c3VtbWVyJTIwMjAyNg=='); return false;">summer 2026</div>
-
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./multimedia-story-1.html">Assignments</a></li><li class="breadcrumb-item"><a href="./multimedia-story-1.html">Multimedia Story DRAFT</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Multimedia Story DRAFT</h1>
 </div>
-<div class="delink listing-description"><a href="./posts/may-20/index.html" class="no-external">
-Hi everyone! I trust you had a good long weekend!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/may-20/index.html" class="no-external">
-<div class="listing-date">
-May 20, 2026
-</div>
-<div class="listing-author">
-Colin Madland
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="c3VtbWVyJTIwMjAyNg==" data-listing-date-sort="1779001200000" data-listing-file-modified-sort="1779036478757" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="353">
-<div class="thumbnail"><a href="./posts/may-17/index.html" class="no-external">
 
-<img loading="lazy" src="./posts/may-17/sunrise.jpg" class="thumbnail-image">
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/may-17/index.html" class="no-external">Long Weekend Update</a>
-</h3>
-<div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('c3VtbWVyJTIwMjAyNg=='); return false;">summer 2026</div>
+<div class="quarto-title-meta">
 
-</div>
-<div class="delink listing-description"><a href="./posts/may-17/index.html" class="no-external">
-I’ve added to Brightspace a draft of the syllabus, because you need to see something. This version hasn’t been officially approved by the dep’t, so is subject to change <em><strong>with…</strong></em>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/may-17/index.html" class="no-external">
-<div class="listing-date">
-May 17, 2026
-</div>
-<div class="listing-author">
-Colin Madland
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="c3VtbWVyJTIwMjAyNg==" data-listing-date-sort="1778482800000" data-listing-file-modified-sort="1778627462210" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="619">
-<div class="thumbnail"><a href="./posts/may-11/index.html" class="no-external">
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Colin Madland </p>
+          </div>
+  </div>
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">May 22, 2026</p>
+    </div>
+  </div>
+    
+  </div>
+  
 
-<img loading="lazy" src="./posts/may-11/image.jpg" class="thumbnail-image">
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/may-11/index.html" class="no-external">Week 1</a>
-</h3>
-<div class="listing-categories">
+</header>
 
-<div class="listing-category" onclick="window.quartoListingCategory('c3VtbWVyJTIwMjAyNg=='); return false;">summer 2026</div>
 
-</div>
-<div class="delink listing-description"><a href="./posts/may-11/index.html" class="no-external">
-Hi Everyone!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/may-11/index.html" class="no-external">
-<div class="listing-date">
-May 11, 2026
-</div>
-<div class="listing-author">
-Colin Madland
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<p>You will create a multimedia story during EDCI337. Your story will be your original work and will incorporate media that you have created. You may choose from a wide variety of formats for your story, and the key is that you need to use at least three media formats.</p>
+<p>This first component of the story is worth 20% of your final grade and is the first draft of your story.</p>
+<p>You are encouraged to tell your story about an adventure you have taken. Adventures sometimes entail some sort of risk and uncertainty of outcome, but that is NOT what I am asking for in this assignment. Do not put yourself in harm’s way for this assignment. However, I do want you to enjoy your adventure and for it to be something that is exciting for you and that is outside and preferably free of charge. ‘Adventure’ is going to be radically different for each person in the class. <a href="https://www.uvic.ca/finnerty/assets/docs/FinnertyGardensWalkingTour.pdf">For some of you, going for a walk through Finnerty Gardens at UVic with an audio recorder, a notebook and a pencil to sketch birds or plants and/or write a poem will be perfectly suited to this assignment.</a> Others may need something of a different flavour like a bicycle ride, hike, sea kayak voyage, or [what do you want to do?]</p>
+<p>You are welcomed and encouraged (but not required) to engage in this adventure with someone else in your learning pod, or your family, or a friend.</p>
+<section id="draft-requirements-due-may-25" class="level2">
+<h2 class="anchored" data-anchor-id="draft-requirements-due-may-25">Draft Requirements (Due May 25)</h2>
+<ul>
+<li>You are responsible for your safety during this activity.<br>
+</li>
+<li>A plan for your adventure (Where will you go? What equipment do you need? Do you need to scout the location?).</li>
+<li>What will be the shape of the story?<br>
+</li>
+<li>What kind of media will you produce? - How do you plan to integrate the media in alignment with Mayer’s Principles of Multimedia Learning?</li>
+<li>You may choose to engage in a trial of your adventure and gather some sample media.<br>
+</li>
+<li><strong>Importantly, narrate your process!</strong> Tell me and your fellow learners what decisions you made and why. Tell us the challenges you faced and how you overcame them.<br>
+</li>
+<li>Publish your draft as a post on your blog.</li>
+</ul>
+</section>
+<section id="full-requirements-due-june-15" class="level2">
+<h2 class="anchored" data-anchor-id="full-requirements-due-june-15">Full Requirements (Due June 15)</h2>
+<ul>
+<li>You are responsible for your own safety during this activity.<br>
+</li>
+<li>Aim to budget at least one hour on your adventure, including time to gather or create media.<br>
+</li>
+<li>You should budget several more hours to create your story.<br>
+</li>
+<li>You must integrate at least three media formats into your final story (text, image, audio, video, comics, etc).<br>
+</li>
+<li>You must be explicit about how the media you use align with at least four of Mayer’s Principles of Multimedia Learning (redundancy, coherence, signaling, contiguity, segmenting, pretraining, modality).<br>
+</li>
+<li>Tell your audience how you incorporated peer feedback into your final draft.<br>
+</li>
+<li><strong>Importantly, narrate your process!</strong> Tell me and your fellow learners what decisions you made and why. Tell us the challenges you faced and how you overcame them.<br>
+</li>
+<li>Publish your final draft as a new post on your blog (do not overwrite your draft).</li>
+</ul>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div>CC-BY</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
