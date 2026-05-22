@@ -4,16 +4,12 @@ image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
+    - text: Brightspace
+      href: https://bright.uvic.ca
+    - text: Course Site
+      href: https://edtechuvic.ca/edci337
+
 
 ---
 
-About this blog
+This site is a work-in-progress mirror of our [main course site](https://edtechuvic.ca/edci337), which is going through some things lately. I will be working to provide as much of the content as possible here.

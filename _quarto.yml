@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 website:
-  description: "EDCI 337 Instructor Posts"
+  description: "EDCI 337 Mirror Site"
   site-url: https://cmadland.github.io/edci337 # you must change this appropriately for RSS feeds to work properly
-  title: "EDCI337 Instructor Posts"
+  title: "EDCI337 Mirror Site"
   navbar:
     right:
       - about.qmd
@@ -15,6 +15,16 @@ website:
         href: https://bsky.app/profile/cmad.land
       - icon: rss
         href: index.xml
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - section: "Education Competencies"
+        contents:
+          - text+image.qmd
+          - storytelling.qmd
 format:
   html:
     theme:

@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Colin Madland">
-<meta name="dcterms.date" content="2026-05-20">
+<meta name="author" content="Adrian Granchelli, Mary Watt, Colin Madland">
 
-<title>Week 2 - May 20 – EDCI337 Mirror Site</title>
+<title>Storytelling – EDCI337 Mirror Site</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -25,26 +24,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-1b8143a5af30aa0587ead8c64582f750.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-1b8143a5af30aa0587ead8c64582f750.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,17 +92,17 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">EDCI337 Mirror Site</span>
     </a>
   </div>
@@ -95,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -109,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -124,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 2 - May 20</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./text+image.html">Education Competencies</a></li><li class="breadcrumb-item"><a href="./storytelling.html">Storytelling</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -134,38 +152,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Week 2 - May 20</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">summer 2026</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Colin Madland </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">May 20, 2026</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -177,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -192,13 +179,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../text+image.html" class="sidebar-item-text sidebar-link">
+  <a href="./text+image.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Text + Image</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../storytelling.html" class="sidebar-item-text sidebar-link">
+  <a href="./storytelling.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Storytelling</span></a>
   </div>
 </li>
@@ -211,45 +198,173 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./text+image.html">Education Competencies</a></li><li class="breadcrumb-item"><a href="./storytelling.html">Storytelling</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Storytelling</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Adrian Granchelli, Mary Watt, Colin Madland </p>
+          </div>
+  </div>
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">May 22, 2026</p>
+    </div>
+  </div>
+    
+  </div>
+  
 
 
-<p>Hi everyone! I trust you had a good long weekend!</p>
-<p>I apologize for the late update post for this week.</p>
-<section id="multimedia-story-draft" class="level2">
-<h2 class="anchored" data-anchor-id="multimedia-story-draft">Multimedia Story DRAFT</h2>
-<p>(Formerly titled Multimedia Story #1)</p>
-<p>I’ve published details regarding your first big assignment, due Monday, May 25.</p>
-<p>I recognize this is a quick turnaround, but please know that I am interested in seeing how you are progressing by Monday and am very much expecting this to be a work in progress!</p>
-<div class="callout callout-style-simple callout-none no-icon">
-<div class="callout-body d-flex">
+</header>
+
+
+<p>Human beings have a rich tradition of storytelling as a method of transmitting learning and culture to the next generation, a practice as old as language itself. When we’re listening to a story – one that’s rich in detail and metaphor and includes compelling characters – research has shown that we tend to imagine ourselves in the situation. This has powerful implications for learning. We will explore the power of storytelling and techniques that you can apply to your media and multimedia learning projects to maximize their impact.</p>
+<blockquote class="blockquote">
+<p>Digital storytelling is not about creating media – it’s about creating meaning. ~ Silvia Rosenthal Tolisano</p>
+</blockquote>
+<section id="storytelling" class="level2">
+<h2 class="anchored" data-anchor-id="storytelling">Storytelling</h2>
+<p>Stories can engage us on a deeper level than simple facts. When we hear a story, our brains activate in a way that allows us to inhabit the experience.</p>
+<p>Studies show that when a story mentions “cinnamon,” the part of the brain responsible for smell is triggered <span class="citation" data-cites="chowEmbodiedComprehensionStories2014">(<a href="#ref-chowEmbodiedComprehensionStories2014" role="doc-biblioref">Chow et al. 2014</a>)</span><!-- (Chow et al., 2014)-->. Similarly, descriptive language that evokes other senses activates the corresponding brain regions. For example, phrases like “leathery hands” or “velvet voice” recruit the part of the brain responsible for processing touch <span class="citation" data-cites="gonzalezReadingCinnamonActivates2006">(<a href="#ref-gonzalezReadingCinnamonActivates2006" role="doc-biblioref">González et al. 2006</a>)</span><!-- (Gonzalez et al., 2006)-->.</p>
+<p>Beyond this sensory engagement, research shows that narrative is a powerful tool for developing empathy and memory. Regular exposure to stories enhances our “theory of mind”—the ability to recognize that others have their own thoughts and feelings <span class="citation" data-cites="boulengerGraspingIdeasMotor2009">(<a href="#ref-boulengerGraspingIdeasMotor2009" role="doc-biblioref">Boulenger et al. 2009</a>)</span><!-- (Boulanger et al., 2009)-->. This not only improves social interactions but also boosts information retention, making key details more memorable than when they are presented as simple facts.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>I will absolutely remember that this has been a goofy start to the course, especially given the fact that several of you are still waiting for your blogs to be properly set up, AND that the course website was unavailable for several hours yesterday and has been super slow and flaky today due to a DDOS attack on our web host.</p>
+<div class="callout-title-container flex-fill">
+Note
 </div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The following exerpt is from Chrona, J. (2022). <em>Wayi wah! : Indigenous pedagogies: An act for reconciliation and anti-racist education</em>. Portage &amp; Main Press. (pp.&nbsp;154-155)</p>
 </div>
 </div>
 </section>
-<section id="reading-and-tasks-for-this-week" class="level2">
-<h2 class="anchored" data-anchor-id="reading-and-tasks-for-this-week">Reading and tasks for this week</h2>
+<section id="the-power-of-story-for-teaching-and-learning" class="level2">
+<h2 class="anchored" data-anchor-id="the-power-of-story-for-teaching-and-learning">The Power of Story for Teaching and Learning</h2>
+<blockquote class="blockquote">
+<p>Story is understood as a fundamental means through which people can learn in all aspects of life. Story can also help learners to organize new concepts that develop from their learning. It is important to understand that the meaning of the word story in Indigenous contexts is different than in post-industrial, Western, Eurocentric contexts. Stories are narratives (traditionally oral, but now also written) that are used to teach skills, transmit cultural values and mores, convey news, record family and community histories, and explain the natural world. In Indigenous contexts, stories do not equate with the construct of a “short story” that is often taught in Euro-Western language arts classrooms. Stories in Indigenous contexts do not necessarily follow what is often taught as the conventional story structure (i.e., follow the “story arc”) and can instead have complex circular or cyclical structures. Story is a medium through which we can all learn.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The story is also an evolving form in Indigenous cultures, as is evidenced by the powerful work of many contemporary storytellers who create story through spoken word, song, writing, and music. The explicit inclusion of Indigenous oral, written, visual, and digital text in schools and classrooms is based on the understanding that this is the land (now known as Canada) from which this rich text (in all its forms) originates.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Although it is easy to focus on story in English language arts (ELA) contexts, the power of story for teaching and learning transcends this curricular area. The use of story in any area is foundational to teaching and learning in Indigenous cultures. It is as applicable in the teaching and learning of science and math as it is in ELA, arts, and social sciences.</p>
+</blockquote>
+<p>So what does all this research mean for teaching and learning? It means that we can help learners imagine new experiences, inspire empathy and promote understanding by using the power of storytelling. We can help learners imagine situations that they haven’t yet encountered, put information in context and hold on to key messages longer. In our media and multimedia learning design, we can use storytelling techniques to create more effective, engaging learning with a greater long-term impact.</p>
+<p>Kurt Vonnegut famously wrote a Master’s thesis on the shape of stories. His thesis was rejected by his program at the University of Chicago, and Vonnegut went on to become one of the most popular authors of his time.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/oP3c1h8v2ZQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="how-to-tell-a-good-story" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-tell-a-good-story">How to Tell a Good Story</h2>
+<p>There are so many different models to help you tell a good story. When you explore the different models, pay close attention to which features overlap. Note Below are just two of the many options:</p>
+<p>7 Storytelling Techniques Used by the Most Inspiring TED Presenters <span class="citation" data-cites="chibana7StorytellingTechniques2015">(<a href="#ref-chibana7StorytellingTechniques2015" role="doc-biblioref">Chibana 2015</a>)</span> <!--(Chibana, 2015)--> - Immerse your audience in a story.<br>
+- Tell a personal story.<br>
+- Create suspense.<br>
+- Bring characters to life.<br>
+- Show. Don’t tell.<br>
+- Build up to a S.T.A.R. moment.<br>
+- End with a positive takeaway.</p>
+<p><a href="https://visme.co/blog/7-storytelling-techniques-used-by-the-most-inspiring-ted-presenters/">View the full article here.</a></p>
+<p>Give me 9min, and I’ll improve your storytelling skills by 176% <span class="citation" data-cites="hummGiveMe9min2025">(<a href="#ref-hummGiveMe9min2025" role="doc-biblioref">Humm 2025</a>)</span> <!--(Humm, 2025)--> In this video, 5 components of a good story are highlighted:</p>
 <ul>
-<li>By now you should have read and explored the resources in the ‘<a href="https://edtechuvic.ca/edci337/2025/09/05/theories-of-multimedia-learning/">Theories of Multimedia Learning</a>’ post. This is a critical post as it sets the stage for the rest of the course.</li>
-<li>This week, focus on ‘<a href="https://edtechuvic.ca/edci337/2025/09/11/text-and-image-the-sum-is-greater-than-its-parts/">Text and Image…</a>’</li>
-<li>You may find it helpful to peek ahead at ‘<a href="https://edtechuvic.ca/edci337/2025/09/14/storytelling/">Storytelling</a>’ and ‘<a href="https://edtechuvic.ca/edci337/2025/10/06/design-process/">Design Process</a>’ while you are planning your Multimedia story draft. However, do not spend too much time on these as we will discuss them later.</li>
-<li>Please ensure that you have signed up for a Learning Pod and have set a meeting time. You should have met once by now to discuss course ideas and concepts. You should also use your Learning Pod to help you plan and execute your adventure! (Linked in Brightspace)</li>
-<li>If you haven’t yet done so, please complete the Learning Pathways Survey. (Linked in Brightspace)</li>
+<li>Location<br>
+</li>
+<li>Action<br>
+</li>
+<li>Thoughts<br>
+</li>
+<li>Emotions<br>
+</li>
+<li>Dialogue</li>
 </ul>
-<p>As always, I’m here to support you! Please let me know by email if you are having difficulty. <a href="https://calendar.proton.me/bookings#ds0BflsDPBRrqaOCr3hDYlrp0Icad1HYmZU-hjUqdiY=">Feel free to book a meeting with me</a> either individually or as a Learning Pod.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/hNuAv-42jzY?si=XEa-i30g5h7Mqbfl" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="ted-talks" class="level3">
+<h3 class="anchored" data-anchor-id="ted-talks">TED Talks</h3>
+<p>Storytelling is so important that TED Talks have an entire topic devoted to it. They’re an incredible resource for ideas from talented individuals. You can explore them here.</p>
+<p>Tone, Mood, and Voice Tone, mood, and voice shape the overall feeling of a story. They are less about what is being said and more about how it feels to the reader. In an educational context, it might be tempting to think these elements are unnecessary, but that overlooks an important reality: people are emotional beings. Motivation and emotion often act as gatekeepers to learning.</p>
+<p>While content is the primary message being communicated, tone, mood, and voice strongly influence how that content is received. In this way, they function as a kind of metacommunication, shaping learners’ engagement and understanding alongside the educational material itself.</p>
+<blockquote class="blockquote">
+<p>I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel. ~ Maya Angelou</p>
+</blockquote>
+<p>Here are two videos that explore tone. The first takes a more introductory approach, focusing on tone in storytelling, while the second is about tone in academic writing.</p>
+<div class="columns">
+<div class="column">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/uxgmKh00WfY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div><div class="column">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/1X9QZwLRg6k" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+</div>
+<p>I encourage you to consider the emotions you convey through your storytelling and writing. There is always a tone and mood being communicated — there’s no avoiding it. By learning how to recognize and control these elements, they can become valuable tools in your writing.</p>
+</section>
+</section>
+<section id="make-a-plan-storyboarding-and-journey-mapping" class="level2">
+<h2 class="anchored" data-anchor-id="make-a-plan-storyboarding-and-journey-mapping">Make a Plan: Storyboarding and Journey Mapping</h2>
+<p>It can be tempting sometimes to just jump into making. But preparation and planning will save you time, ensure that your message is clear and in alignment with your learning outcomes, and avoid unnecessarily long and meandering experiences. Storyboarding is a powerful tool crucial to many industries, including film and user experience design. It has incredible potential and should be used more often in education.</p>
+<blockquote class="blockquote">
+<p>An unscripted video wastes time, takes too much effort, and is painful to watch. ~ Justin Simon</p>
+</blockquote>
+<p>Use clear, informal language and create a clear structure for your script with an introduction and conclusion. Read your script aloud to check that it is engaging, conveys your core message and flows naturally. This is also the best way to spot repetition and awkward wording. You can add further details, such as how you want a viewer to ‘feel’, ‘think’, or ‘learn’.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/storyboarding.jpg" class="img-fluid figure-img"></p>
+<figcaption>A rough storyboard for a video project <span class="citation" data-cites="futurelearnHowCreateVideo">(<a href="#ref-futurelearnHowCreateVideo" role="doc-biblioref">FutureLearn, n.d.</a>)</span></figcaption>
+</figure>
+</div>
+<p>Storyboarding is the process of creating a map for making media (such as a comic, video, or website). It can be as simple or complex as you need it to be, including just text and description or images and sketch notes – whatever works.</p>
+<p>The storyboard not only helps you set up shots efficiently, it also saves a lot of time when it comes to editing. With the storyboard in hand you will know exactly how to create your final product.</p>
+</section>
+<section id="reflections" class="level2">
+<h2 class="anchored" data-anchor-id="reflections">Reflections</h2>
+<p>Choose one or more of these questions to help inspire your blog post for this module or share your own insights into the topic.</p>
+<ul>
+<li>Describe a meaningful learning experience that started with a story that you heard. What made it impactful for you? What senses did it appeal to? Did you recognize any of the storytelling techniques reviewed this week?<br>
+</li>
+<li>Can you support what to-do and what not-to-do in storytelling through the lens of Mayer’s Cognitive Theory of Multimedia Learning?<br>
+</li>
+<li>In the reading this week, 7 Storytelling Techniques Used by the Most Inspiring TED Presenters, which of the presenters did you find most compelling? What technique(s) did you recognize in their talk?<br>
+</li>
+<li>What storytelling techniques have you used instinctively and which ones require more work for you? Which techniques will you focus on moving forward?</li>
+</ul>
+
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div>CC-BY</div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-boulengerGraspingIdeasMotor2009" class="csl-entry" role="listitem">
+Boulenger, Véronique, Olaf Hauk, and Friedemann Pulvermüller. 2009. <span>“Grasping <span>Ideas</span> with the <span>Motor System</span>: <span>Semantic Somatotopy</span> in <span>Idiom Comprehension</span>.”</span> <em>Cerebral Cortex</em> 19 (8): 1905–14. <a href="https://doi.org/10.1093/cercor/bhn217">https://doi.org/10.1093/cercor/bhn217</a>.
+</div>
+<div id="ref-chibana7StorytellingTechniques2015" class="csl-entry" role="listitem">
+Chibana, Nayomi. 2015. <em>7 <span>Storytelling Techniques Used</span> by the <span>Best TED Presenters</span></em>. <a href="https://visme.co/blog/7-storytelling-techniques-used-by-the-most-inspiring-ted-presenters/">https://visme.co/blog/7-storytelling-techniques-used-by-the-most-inspiring-ted-presenters/</a>.
+</div>
+<div id="ref-chowEmbodiedComprehensionStories2014" class="csl-entry" role="listitem">
+Chow, Ho Ming, Raymond A. Mar, Yisheng Xu, Siyuan Liu, Suraji Wagage, and Allen R. Braun. 2014. <span>“Embodied <span>Comprehension</span> of <span>Stories</span>: <span>Interactions</span> Between <span>Language Regions</span> and <span class="nocase">Modality-specific Neural Systems</span>.”</span> <em>Journal of Cognitive Neuroscience</em> (One Rogers Street, Cambridge, MA 02142-1209, USA) 26 (2): 279–95. <a href="https://doi.org/10.1162/jocn_a_00487">https://doi.org/10.1162/jocn_a_00487</a>.
+</div>
+<div id="ref-futurelearnHowCreateVideo" class="csl-entry" role="listitem">
+FutureLearn. n.d. <span>“How to <span>Create Video</span> for <span>Online Courses</span> - <span>Online Course</span>.”</span> In <em>FutureLearn</em>. University of Edinburgh. Accessed May 22, 2026. <a href="https://www.futurelearn.com/courses/how-to-create-video-for-online-courses">https://www.futurelearn.com/courses/how-to-create-video-for-online-courses</a>.
+</div>
+<div id="ref-gonzalezReadingCinnamonActivates2006" class="csl-entry" role="listitem">
+González, Julio, Alfonso Barros-Loscertales, Friedemann Pulvermüller, et al. 2006. <span>“Reading Cinnamon Activates Olfactory Brain Regions.”</span> <em>NeuroImage</em> 32 (2): 906–12. <a href="https://doi.org/10.1016/j.neuroimage.2006.03.037">https://doi.org/10.1016/j.neuroimage.2006.03.037</a>.
+</div>
+<div id="ref-hummGiveMe9min2025" class="csl-entry" role="listitem">
+Humm, Philipp. 2025. <em>Give Me 9min, and <span>I</span>’ll Improve Your Storytelling Skills by 176%</em>. <a href="https://www.youtube.com/watch?v=hNuAv-42jzY">https://www.youtube.com/watch?v=hNuAv-42jzY</a>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div>CC-BY</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

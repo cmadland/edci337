@@ -5,10 +5,10 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>EDCI337 Instructor Posts</title>
+<title>EDCI337 Mirror Site</title>
 <link>https://cmadland.github.io/edci337/</link>
 <atom:link href="https://cmadland.github.io/edci337/index.xml" rel="self" type="application/rss+xml"/>
-<description>EDCI 337 Instructor Posts</description>
+<description>EDCI 337 Mirror Site</description>
 <generator>quarto-1.9.36</generator>
 <lastBuildDate>Wed, 20 May 2026 07:00:00 GMT</lastBuildDate>
 <item>

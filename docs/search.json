@@ -1,10 +1,86 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "text+image.html",
+    "href": "text+image.html",
+    "title": "Text + Image",
     "section": "",
-    "text": "About this blog"
+    "text": "Using text and image together can lead to better learning due to the dual-coding theory – that there are two separate parts of our brains to process textual/verbal vs. visual information. In other words our brain can handle more content if it’s in the form of text AND image; our brain has a limit of how much textual content it can handle and a different limit of the imagery content it can handle. To dive deeper, the act of comprehending and constructing mental models from text undergoes a different neural process than if the stimuli is imagery.\nThe popularity of memes is no surprise, as they represent a powerful combination of text and image; an immediate visual understanding and textual context.\nAs you read on, I want you to reflect upon your personal experiences with text and imagery. Think about how each medium influences your learning, how you communicate with friends and family, and how advertising may leverage forms of media.\nIt is important to know the strengths and weaknesses of each media so that multimedia compliment instead of undermine one another. There is no optimal media (text nor image) but there is potentially a better choice for what you are communicating. We can frame the differences of image and text as speed vs. depth, appearances vs. analysis, and emotion vs. reason (Yousman et al. 2016).",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Text + Image"
+    ]
+  },
+  {
+    "objectID": "text+image.html#image",
+    "href": "text+image.html#image",
+    "title": "Text + Image",
+    "section": "IMAGE",
+    "text": "IMAGE\n\nSpeed\n\nquick to process\n\ndiscourage lingering\n\n\n\nAppearances\n\ninstantaneous meaning\n\nnot implicitly subject to analysis\n\n\n\nEmotion:\n\nEmotionally captivating\n\nEmotional immediacy",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Text + Image"
+    ]
+  },
+  {
+    "objectID": "text+image.html#text",
+    "href": "text+image.html#text",
+    "title": "Text + Image",
+    "section": "TEXT",
+    "text": "TEXT\n\nDepth\n\ncultivates intellectual exploration\n\n\n\nAnalysis\n\nSequential and deliberate\n\nRequires cognitive effort\n\n\n\nReason\n\nJustifiable\n\nCoherent",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Text + Image"
+    ]
+  },
+  {
+    "objectID": "text+image.html#text-image-best-learning",
+    "href": "text+image.html#text-image-best-learning",
+    "title": "Text + Image",
+    "section": "Text + Image ≠ Best Learning",
+    "text": "Text + Image ≠ Best Learning\nWhile text and image recruit different neural pathways, the combination of text and image does not always lead to better learning. In fact, when text and image are used together poorly, it can have a negative effect on learning. Let’s explore each of the principles of Mayer’s Cognitive Theory of Multimedia Learning that may be affected:\n\nRedundancy Principle\n\nIf a learner does not need two information sources, i.e. if they have strong prior knowledge, then offering both image and text provides extraneous cognitive load.\n\nCoherence and Contiguity\n\nIf there is too much time or distance between textual information and visual information then the learner will not easily connect the image with the text.",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Text + Image"
+    ]
+  },
+  {
+    "objectID": "text+image.html#readwatch",
+    "href": "text+image.html#readwatch",
+    "title": "Text + Image",
+    "section": "Read/Watch",
+    "text": "Read/Watch\nHere is a list of media and multimedia illustrating and expanding on the ideas and techniques introduced. Although there may be some repetition between sources, looking at a variety of examples can greatly help your understanding of the underlying theories.\nThis is a quick fantastic overview of Dual Coding and how it is the leading theory over Learning Styles.\nVerbal to Visual. (2025). Learning Styles vs Dual Coding: A Battle of Two Theories. YouTube.\n\nThis is more visual focused and design focused but highlights some of the principles well. Peck, D. (2021). Visual Design Principles for eLearning. YouTube.\n\nA little overview over different graphics to support learning.\nSentz, J. (2021). Using Visual and Graphic Elements While Designing Instructional Activities. Design for Learning: Principles, Processes, and Praxis.\nLots of good examples in this overview of dual coding theory.\nLoveless, B. (2023). Dual Coding Theory: The Complete Guide for Teachers. Education Corner.",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Text + Image"
+    ]
+  },
+  {
+    "objectID": "text+image.html#reflection-questions",
+    "href": "text+image.html#reflection-questions",
+    "title": "Text + Image",
+    "section": "Reflection Questions",
+    "text": "Reflection Questions\nThese questions are here to prompt your thinking about the content. Hint: you can elaborate in your substantive post.\nConsider your favourite social media platform. How does it leverage the combination of text and image to keep you engaged? After reading this, what considerations will you consider when designing content for education? When you attend a lecture and take notes, do you ever find yourself doodling or creating small diagrams? Does this help your writing? Why or why not?",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Text + Image"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Week 2 - May 20\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 20, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nLong Weekend Update\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 17, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 11, 2026\n\n\nColin Madland\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "About",
+      "Home"
+    ]
   },
   {
     "objectID": "posts/may-20/index.html",
@@ -77,10 +153,82 @@
     "text": "Post a link to Brightspace\nOnce you have published your blog entry, post a link to your introduction in the Brightspace discussion forum.\nOnce you’ve posted your introduction, take time to meet your peers:\n\nReview/read several of your classmates’ introductions.\n\nEngage substantively with a few others, especially those who haven’t received much feedback yet.\n\nUse this opportunity to find peers with shared interests, goals, or majors who could potentially form a small group for synchronous discussions or identify a team for the challenge projects."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "edci337",
+    "objectID": "storytelling.html",
+    "href": "storytelling.html",
+    "title": "Storytelling",
     "section": "",
-    "text": "Week 2 - May 20\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 20, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nLong Weekend Update\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 17, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 11, 2026\n\n\nColin Madland\n\n\n\n\n\nNo matching items"
+    "text": "Human beings have a rich tradition of storytelling as a method of transmitting learning and culture to the next generation, a practice as old as language itself. When we’re listening to a story – one that’s rich in detail and metaphor and includes compelling characters – research has shown that we tend to imagine ourselves in the situation. This has powerful implications for learning. We will explore the power of storytelling and techniques that you can apply to your media and multimedia learning projects to maximize their impact.",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Storytelling"
+    ]
+  },
+  {
+    "objectID": "storytelling.html#storytelling",
+    "href": "storytelling.html#storytelling",
+    "title": "Storytelling",
+    "section": "Storytelling",
+    "text": "Storytelling\nStories can engage us on a deeper level than simple facts. When we hear a story, our brains activate in a way that allows us to inhabit the experience.\nStudies show that when a story mentions “cinnamon,” the part of the brain responsible for smell is triggered (Chow et al. 2014). Similarly, descriptive language that evokes other senses activates the corresponding brain regions. For example, phrases like “leathery hands” or “velvet voice” recruit the part of the brain responsible for processing touch (González et al. 2006).\nBeyond this sensory engagement, research shows that narrative is a powerful tool for developing empathy and memory. Regular exposure to stories enhances our “theory of mind”—the ability to recognize that others have their own thoughts and feelings (Boulenger et al. 2009). This not only improves social interactions but also boosts information retention, making key details more memorable than when they are presented as simple facts.\n\n\n\n\n\n\nNote\n\n\n\nThe following exerpt is from Chrona, J. (2022). Wayi wah! : Indigenous pedagogies: An act for reconciliation and anti-racist education. Portage & Main Press. (pp. 154-155)",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Storytelling"
+    ]
+  },
+  {
+    "objectID": "storytelling.html#the-power-of-story-for-teaching-and-learning",
+    "href": "storytelling.html#the-power-of-story-for-teaching-and-learning",
+    "title": "Storytelling",
+    "section": "The Power of Story for Teaching and Learning",
+    "text": "The Power of Story for Teaching and Learning\n\nStory is understood as a fundamental means through which people can learn in all aspects of life. Story can also help learners to organize new concepts that develop from their learning. It is important to understand that the meaning of the word story in Indigenous contexts is different than in post-industrial, Western, Eurocentric contexts. Stories are narratives (traditionally oral, but now also written) that are used to teach skills, transmit cultural values and mores, convey news, record family and community histories, and explain the natural world. In Indigenous contexts, stories do not equate with the construct of a “short story” that is often taught in Euro-Western language arts classrooms. Stories in Indigenous contexts do not necessarily follow what is often taught as the conventional story structure (i.e., follow the “story arc”) and can instead have complex circular or cyclical structures. Story is a medium through which we can all learn.\n\n\nThe story is also an evolving form in Indigenous cultures, as is evidenced by the powerful work of many contemporary storytellers who create story through spoken word, song, writing, and music. The explicit inclusion of Indigenous oral, written, visual, and digital text in schools and classrooms is based on the understanding that this is the land (now known as Canada) from which this rich text (in all its forms) originates.\n\n\nAlthough it is easy to focus on story in English language arts (ELA) contexts, the power of story for teaching and learning transcends this curricular area. The use of story in any area is foundational to teaching and learning in Indigenous cultures. It is as applicable in the teaching and learning of science and math as it is in ELA, arts, and social sciences.\n\nSo what does all this research mean for teaching and learning? It means that we can help learners imagine new experiences, inspire empathy and promote understanding by using the power of storytelling. We can help learners imagine situations that they haven’t yet encountered, put information in context and hold on to key messages longer. In our media and multimedia learning design, we can use storytelling techniques to create more effective, engaging learning with a greater long-term impact.\nKurt Vonnegut famously wrote a Master’s thesis on the shape of stories. His thesis was rejected by his program at the University of Chicago, and Vonnegut went on to become one of the most popular authors of his time.",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Storytelling"
+    ]
+  },
+  {
+    "objectID": "storytelling.html#how-to-tell-a-good-story",
+    "href": "storytelling.html#how-to-tell-a-good-story",
+    "title": "Storytelling",
+    "section": "How to Tell a Good Story",
+    "text": "How to Tell a Good Story\nThere are so many different models to help you tell a good story. When you explore the different models, pay close attention to which features overlap. Note Below are just two of the many options:\n7 Storytelling Techniques Used by the Most Inspiring TED Presenters (Chibana 2015)  - Immerse your audience in a story.\n- Tell a personal story.\n- Create suspense.\n- Bring characters to life.\n- Show. Don’t tell.\n- Build up to a S.T.A.R. moment.\n- End with a positive takeaway.\nView the full article here.\nGive me 9min, and I’ll improve your storytelling skills by 176% (Humm 2025)  In this video, 5 components of a good story are highlighted:\n\nLocation\n\nAction\n\nThoughts\n\nEmotions\n\nDialogue\n\n\n\nTED Talks\nStorytelling is so important that TED Talks have an entire topic devoted to it. They’re an incredible resource for ideas from talented individuals. You can explore them here.\nTone, Mood, and Voice Tone, mood, and voice shape the overall feeling of a story. They are less about what is being said and more about how it feels to the reader. In an educational context, it might be tempting to think these elements are unnecessary, but that overlooks an important reality: people are emotional beings. Motivation and emotion often act as gatekeepers to learning.\nWhile content is the primary message being communicated, tone, mood, and voice strongly influence how that content is received. In this way, they function as a kind of metacommunication, shaping learners’ engagement and understanding alongside the educational material itself.\n\nI’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel. ~ Maya Angelou\n\nHere are two videos that explore tone. The first takes a more introductory approach, focusing on tone in storytelling, while the second is about tone in academic writing.\n\n\n\n\n\n\n\nI encourage you to consider the emotions you convey through your storytelling and writing. There is always a tone and mood being communicated — there’s no avoiding it. By learning how to recognize and control these elements, they can become valuable tools in your writing.",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Storytelling"
+    ]
+  },
+  {
+    "objectID": "storytelling.html#make-a-plan-storyboarding-and-journey-mapping",
+    "href": "storytelling.html#make-a-plan-storyboarding-and-journey-mapping",
+    "title": "Storytelling",
+    "section": "Make a Plan: Storyboarding and Journey Mapping",
+    "text": "Make a Plan: Storyboarding and Journey Mapping\nIt can be tempting sometimes to just jump into making. But preparation and planning will save you time, ensure that your message is clear and in alignment with your learning outcomes, and avoid unnecessarily long and meandering experiences. Storyboarding is a powerful tool crucial to many industries, including film and user experience design. It has incredible potential and should be used more often in education.\n\nAn unscripted video wastes time, takes too much effort, and is painful to watch. ~ Justin Simon\n\nUse clear, informal language and create a clear structure for your script with an introduction and conclusion. Read your script aloud to check that it is engaging, conveys your core message and flows naturally. This is also the best way to spot repetition and awkward wording. You can add further details, such as how you want a viewer to ‘feel’, ‘think’, or ‘learn’.\n\n\n\nA rough storyboard for a video project (FutureLearn, n.d.)\n\n\nStoryboarding is the process of creating a map for making media (such as a comic, video, or website). It can be as simple or complex as you need it to be, including just text and description or images and sketch notes – whatever works.\nThe storyboard not only helps you set up shots efficiently, it also saves a lot of time when it comes to editing. With the storyboard in hand you will know exactly how to create your final product.",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Storytelling"
+    ]
+  },
+  {
+    "objectID": "storytelling.html#reflections",
+    "href": "storytelling.html#reflections",
+    "title": "Storytelling",
+    "section": "Reflections",
+    "text": "Reflections\nChoose one or more of these questions to help inspire your blog post for this module or share your own insights into the topic.\n\nDescribe a meaningful learning experience that started with a story that you heard. What made it impactful for you? What senses did it appeal to? Did you recognize any of the storytelling techniques reviewed this week?\n\nCan you support what to-do and what not-to-do in storytelling through the lens of Mayer’s Cognitive Theory of Multimedia Learning?\n\nIn the reading this week, 7 Storytelling Techniques Used by the Most Inspiring TED Presenters, which of the presenters did you find most compelling? What technique(s) did you recognize in their talk?\n\nWhat storytelling techniques have you used instinctively and which ones require more work for you? Which techniques will you focus on moving forward?",
+    "crumbs": [
+      "About",
+      "Education Competencies",
+      "Storytelling"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site is a work-in-progress mirror of our main course site, which is going through some things lately. I will be working to provide as much of the content as possible here."
   }
 ]

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cmadland.github.io/edci337/about.html</loc>
-    <lastmod>2026-05-12T03:37:45.375Z</lastmod>
+    <loc>https://cmadland.github.io/edci337/text+image.html</loc>
+    <lastmod>2026-05-22T20:25:00.046Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmadland.github.io/edci337/index.html</loc>
+    <lastmod>2026-05-22T20:41:20.923Z</lastmod>
   </url>
   <url>
     <loc>https://cmadland.github.io/edci337/posts/may-20/index.html</loc>
@@ -17,7 +21,11 @@
     <lastmod>2026-05-12T23:11:02.210Z</lastmod>
   </url>
   <url>
-    <loc>https://cmadland.github.io/edci337/index.html</loc>
-    <lastmod>2026-05-13T15:41:59.236Z</lastmod>
+    <loc>https://cmadland.github.io/edci337/storytelling.html</loc>
+    <lastmod>2026-05-22T21:11:31.145Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cmadland.github.io/edci337/about.html</loc>
+    <lastmod>2026-05-22T20:39:56.126Z</lastmod>
   </url>
 </urlset>
