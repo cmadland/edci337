@@ -27,7 +27,13 @@ website:
           - storytelling.qmd
       - section: Assignments
         contents:
-          - multimedia-story-1.qmd   
+          - multimedia-story-1.qmd  
+          - daily-creates.qmd 
+          - text: "Assessment"
+            href: "https://cmadland.github.io/blog/posts/solo/"
+      - section: "Learner Blogs"
+        contents:
+          - feeds.qmd
 format:
   html:
     theme:

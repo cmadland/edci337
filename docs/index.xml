@@ -10,7 +10,17 @@
 <atom:link href="https://cmadland.github.io/edci337/index.xml" rel="self" type="application/rss+xml"/>
 <description>EDCI 337 Mirror Site</description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Wed, 20 May 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 22 May 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Week 2 - May 22</title>
+  <dc:creator>Colin Madland</dc:creator>
+  <link>https://cmadland.github.io/edci337/posts/may-22/</link>
+  <description><![CDATA[ A few quick updates as we head into the weekend. ]]></description>
+  <category>summer 2026</category>
+  <guid>https://cmadland.github.io/edci337/posts/may-22/</guid>
+  <pubDate>Fri, 22 May 2026 07:00:00 GMT</pubDate>
+  <media:content url="https://cmadland.github.io/edci337/posts/may-22/arrow-leaf.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Week 2 - May 20</title>
   <dc:creator>Colin Madland</dc:creator>
