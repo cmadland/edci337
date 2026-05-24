@@ -1,0 +1,81 @@
+---
+title: "Week 3 - May 25"
+author: "Colin Madland"
+date: "2026-05-24"
+categories: [summer 2026]
+image: "cinnamon-buns.jpeg"
+image-alt: "Delicious, fresh, home-made cinnamon buns on a plate. The look gooey and sweet."
+license: CC-BY
+bibliography: ../../refs.bib
+bibliographystyle: apa
+---
+
+Week 3 is here!
+
+
+::: {.callout-important}
+
+See you at 1:00pm Pacific time in Zoom. Link in Brightspace.
+
+:::
+
+
+## Agenda for Monday, May 25
+
+Check Friday's update for more details, but some quick reminders:
+
+### Multimedia Story DRAFT
+
+- Your Multimedia story **DRAFT** is due Monday, and [I've published instructions on the course site](https://edtechuvic.ca/edci337/multimedia-story-1/)
+  - Don't panic if you don't feel like it is fully ready to submit. This is a process-based course, and the course is not over. You don't get penalized for early mistakes!
+  - even if you only have a handful of notes or sketches, post those.
+
+### Grading and Assessment
+
+- check the course website under 'Assignments'
+
+### Course Feed
+
+- 'Learner Posts' page, accessible under the 'Sections' menu item. 
+  - The best way to respond to someone is to create a post on your own site that links to the post you are commenting about. 
+  - if you don't see your own posts in the feed:
+    - make sure you have completed the Learning Pathways Survey
+    - you might need to use a category on your edci337 posts. 
+
+{{< video https://youtu.be/ooP9UuLow5g?si=FingRAIYajGVeHtg >}}
+
+## Active Learning
+
+### Breakout Discussion 1
+
+> If students are to learn desired outcomes in a reasonably effective manner, then the teacher's fundamental task is to get students to engage in learning activities that are likely to result in their achieving those outcomes. It is important to remember that what the student does is more important than what the teacher does. [@shuellCognitiveConceptionsLearning1986, p. 429]
+
+### Breakout Discussion 2
+
+- pen and paper
+- 2 groups
+- listen carefully and recall
+- write down as much as you remember
+
+#### Questions
+
+1. How many of the sentences could you remember?
+2. Which group were you in?
+3. What do you notice?
+4. What do you wonder?
+
+## Learning Pods
+
+- meet with your learning pods to:
+  - set up meetings for this week
+  - introduce each other to your multimedia story drafts.
+
+## Things to do this week
+
+- meet with your learning pod to review each other's multimedia story drafts (Sign-up link in Brightspace if needed.)
+- read and engage with the Active Learning post [Course site](https://edtechuvic.ca/edci337/2025/10/19/models-of-active-learning/) or [Mirror Site](https://cmadland.github.io/edci337/active-learning.html)
+- 3-5 Daily Creates focussed on Audio.
+- summary blog post of your Daily Creates.
+
+
+As always, I'm cheering you on! Please [reach out if you have any questions or concerns.](https://calendar.proton.me/bookings#ds0BflsDPBRrqaOCr3hDYlrp0Icad1HYmZU-hjUqdiY=)
