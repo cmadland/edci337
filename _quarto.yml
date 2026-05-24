@@ -25,6 +25,7 @@ website:
         contents:
           - text+image.qmd
           - storytelling.qmd
+          - active-learning.qmd
       - section: Assignments
         contents:
           - multimedia-story-1.qmd  
