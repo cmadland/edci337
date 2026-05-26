@@ -1,0 +1,25 @@
+---
+title: "Week 3 - May 26"
+author: "Colin Madland"
+date: "2026-05-24"
+categories: [summer 2026, plugin, WordPress, audio]
+image: "audio.png"
+image-alt: "plugin in WordPress called ALT Lab Audiography"
+license: CC-BY
+bibliography: ../../refs.bib
+bibliographystyle: apa
+---
+
+Super quick update...
+
+## ALT Lab Audiography
+
+I just discovered that there is a plugin in your opened.ca site called 'ALT Lab Audiography', which seems to allow you to annotate audio files directly in WordPress.
+
+I have never used this plugin, but you may want to try it out.
+
+![ALT Lab Audiography Plugin](audio.png){fig-alt="plugin in WordPress called ALT Lab Audiography"}
+
+## Activation
+
+Navigate to your Dashboard > Plugins, then click 'Activate' on the plugin.
