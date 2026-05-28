@@ -2,6 +2,7 @@
 title: "Week 3 - May 26"
 author: "Colin Madland"
 date: "2026-05-26"
+date-modified: last-modified
 categories: [summer 2026, plugin, WordPress, audio]
 image: "audio.png"
 image-alt: "plugin in WordPress called ALT Lab Audiography"

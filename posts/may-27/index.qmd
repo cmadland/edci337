@@ -2,6 +2,7 @@
 title: "Week 3 - May 27"
 author: "Colin Madland"
 date: "2026-05-27"
+date-modified: last-modified
 categories: [summer 2026, multimedia story, instagram]
 # image: "audio.png"
 # image-alt: "plugin in WordPress called ALT Lab Audiography"
@@ -10,7 +11,7 @@ bibliography: ../../refs.bib
 bibliographystyle: apa
 ---
 
-![GitHub last commit](https://img.shields.io/github/last-commit/cmadland/edci337)
+
 
 Sample multimedia story...
 
