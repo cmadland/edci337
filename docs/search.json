@@ -235,60 +235,130 @@
     ]
   },
   {
-    "objectID": "posts/may-24/index.html",
-    "href": "posts/may-24/index.html",
-    "title": "Week 3 - May 25",
+    "objectID": "posts/hibbitts-jun-8/index.html",
+    "href": "posts/hibbitts-jun-8/index.html",
+    "title": "Big Design, Small Design",
     "section": "",
-    "text": "Week 3 is here!"
+    "text": "Follow along • Try it out • Apply it later\n\nDocsify-This is an open-source web app that instantly turns online Markdown files into styled web pages.\nNo web server. No installation. No build process.\n\n“I’m blown away just by the fact you put a URL into Docsify-This and then you get a URL back for a web page… done!”\n– J. Groom, Co-founder, Reclaim Hosting\n\n\n\n\n\n\n\n\n\n\n\nWhat We’re Covering\nWhat You’ll Take Away\n\n\n\n\n📝 Markdown Overview\nWhy publishing – not writing – is the real barrier\n\n\n🔍 Big Design, Small Design\nA framework for identifying friction at any design level\n\n\n▶️ Docsify-This\nHow structural decisions lower barriers for real users\n\n\n⚡ See It in Action\nHands-on: publish a page in under a minute\n\n\n🎯 Resources to Go\nWhat to bookmark and try after the session\n\n\n\n\n[!TIP] This guide works best alongside a browser tab showing live examples – links with ↗ open automatically in a new tab for this purpose.\n\n\n\n\nMarkdown is a lightweight way to format plain text – readable as-is, renderable anywhere. Here’s an example Markdown source file ↗ to explore.\n\n\n\n\n\nYou Type\nYou Get\n\n\n\n\n# Heading 1\nLarge heading\n\n\n## Heading 2\nMedium heading\n\n\n**bold text**\nbold text\n\n\n*italic text*\nitalic text\n\n\n[link text](URL)\nClickable link\n\n\n- Item\n• Bulleted list\n\n\n\n\n\n\nWriting Markdown is quite learnable, but publishing it has traditionally required a web server, a build process, or developer-type skills. That’s a barrier many educators and open publishers can’t cross on their own.\n\n\n\n\nA Markdown file stored online (GitHub, Codeberg, Gist, or any web-accessible URL)\nThat’s it – Docsify-This reads it dynamically and does the rest\n\n\n“Keeping all my course notes as plain text files and deploying them through GitHub and Docsify-This is easy and makes my course development a breeze. Plus, I keep all my materials locally, and can reuse them without being reliant on Canvas.”\n– J. Maxwell, Director & Associate Professor, Publishing Program, Simon Fraser University\n\n\n\n\n\nA practical interaction design (IxD) framework to consider where a design problem lives, and what design level addresses it.\nFriction is one lens – but Big and Small Design also encompass opportunities and the conditions that support people in reaching their goals.\nDocsify-This is the example here, but the questions this framework asks apply to almost any tool, platform, or learning environment.\n\n\nThe experience around and beyond the interface.\nAsk:\n❓ Who may face headwinds, be left out, or drop off – and why?\n❓ What structural decisions – workflows, platforms, portability – create friction before anyone starts?\nKey structural choices in Docsify-This ↗: - Your files stay where you store them; Docsify-This reads dynamically - Removes publishing and maintenance friction, not the initial upload step - Accessibility built into the structure: semantic HTML, keyboard navigable, low visual noise\n\n\nFurther details about Big Design\n\nBig Design asks us to think about outcomes over outputs – not just “did the tool publish the page?” but “did the intended audience get to publish at all?”\nDocsify-This example:\nTraditional publishing workflows store content within the platform… Docsify-This changes the structure: your files stay where you originally store them. It doesn’t eliminate every barrier before you start. Getting your file onto GitHub or Codeberg is still a step. But it removes the publishing and maintenance friction that traditionally follows.\nThis is a common open-source challenge – Big Design often gets far less attention than the interface itself, leaving less tech-savvy users behind. Docsify-This was designed with the publishing gap in mind.\nAccessibility was baked into that structure from the start: semantic HTML, keyboard navigable, low visual noise. That means an author focused on their content automatically gets an accessible result.\n\n\n\n\nThe experience within the interface.\nAsk:\n❓ Is the experience clear and purposeful at every interaction?\n❓ Are power features accessible without cluttering the simple path for everyone else?\nKey interface choices in Docsify-This ↗: - Progressive disclosure: essentials first, deeper options when wanted - “Show More Page Appearance Options »” reveals advanced controls only when needed - Pre-filled, pre-selected URL field: one less click, one less frustration\n\n\nFurther details about Small Design\n\nDocsify-This example:\nDocsify-This uses progressive disclosure – the Web Page Builder shows the essentials first, with more options available for those who want to go further. Open Docsify-This.net ↗ to see this in action. Key options like page layout and an “Edit this Page” link for GitHub or Codeberg files are immediately available – all changing how the page appears without touching the content itself.\nIn addition, the “Show More Page Appearance Options »” link reveals additional options only when needed.\nAnd then there’s Micro Design – the details that seem small but do a lot of work.\nDocsify-This shows two Micro Design details working together: the URL input field arrives pre-filled with a demo URL and already selected – tap once to see the tool work, or paste your own URL to replace it instantly.\nOne detail at a time. One less click. One less small frustration, multiplied across every person who has ever used the tool.\n\n\n\n\n\n\nNext time you encounter friction using any tool: assess which level it belongs to.\n🔎 Big Design – people face barriers before they even begin\n🔎 Small Design – people struggle to achieve their goals\n🔎 Micro Design – people stumble on the small details\n\n\n\n\nWhat we’ve covered so far:\n✅ Markdown overview and the publishing friction problem\n✅ Big / Small Design as an IxD framework\nComing up: Core Design Principles of Docsify-This!\n\n\n\n\nThese core design principles guided the development of Docsify-This. As you read through, notice how each one reflects a structural choice.\n\n\n\n\n\n\n\n\n\nPrinciple\nWhat It Means in Practice\n\n\n\n\nZero Setup and Maintenance Publishing\nNo build process, no web server, no dedicated publishing account required\n\n\nSeparation of Content and Presentation\nSame Markdown file, different styles for different contexts\n\n\nPlatform Independence and Choice\nNot locked into any one hosting service or workflow\n\n\nYour Content, Your Control\nFiles stay in GitHub – Docsify-This reads them dynamically\n\n\nSupport the 5 Rs of OER\nContent stays open, portable, and reusable by others (Retain, Reuse, Revise, Remix, Redistribute)\n\n\nAuthors Helping Other Authors\nURL parameters can be pre-configured and shared with others\n\n\n\n\n\n\n\nOne URL. One page. Right now.\n\n\n1. Open the Docsify-This Web Page Builder\n\nOpen Docsify-This.net ↗\n\nNotice the URL field is already selected and waiting. (A small but deliberate detail.)\n2. Use this Markdown file URL\n\ngithub.com/hibbitts-design/docsify-this-one-page-article/blob/main/home.md ↗ Copy URL\n\n3. Press “Publish as a Web Page”\nA Markdown file becomes a styled web page in seconds. That’s the moment of delight – and it’s intentional.\n\n[!NOTE] This activity uses a pre-hosted file – when publishing your own content requires a place to store it online, such as GitHub or Codeberg.\n\n\n\n\nHow to adjust a URL parameter: - Edit the URL directly in your browser’s address bar - Remove #/, if present, from the end of the URL - Add your parameter with & or modify an existing one\nAdd one of these to the end of your published page URL and press Enter:\n\n\n\nAdd to URL\nWhat happens\n\n\n\n\n&sidebar=true\nDisplay Docsify sidebar\n\n\n&sidebar=true&maxLevel=3\nDisplay Docsify sidebar with headings to level 3\n\n\n&font-size=28px\nText gets larger for presenting\n\n\n&dark-mode=on\nDark theme always on\n\n\n\n\n\n\n\nEvery design decision you saw today – big, small, or micro – started with a scenario-based question: who is trying to do what, and what friction stands between them and their goal?\nThat question doesn’t change whether you’re building a publishing tool, designing a course, or choosing which platform your students will use. The framework travels.\n\n“Experience design is ultimately a way to show people that you care. That applies to tools, to documentation, and to the learning environments you’ll design as educators.”\n\n\n\n\n\nWhat we’ve done today:\n\n✅ Markdown overview and the publishing friction problem\n✅ Big / Small Design as an IxD framework\n✅ Docsify-This design decisions in action\n✅ Docsify-This in action: publishing a page and adjusting URL parameters\n\nBefore you leave: - [ ] Bookmark this guide - [ ] Bookmark a Docsify-This example URL to revisit later\nAfter today’s session: - [ ] Try the self-directed Leap into Open Publishing guide ↗ – 20 minutes, hands-on, no setup - [ ] Apply the Big / Small / Micro framework to a tool or experience you’re designing or evaluating - [ ] Next time you feel friction using a tool – identify which design level it belongs to\n\n\n\n\n\n\n\n\n\nResource\nLink\n\n\n\n\nWeb Page Builder\ndocsify-this.net ↗\n\n\nProject overview\nhibbittsdesign.org ↗\n\n\nSelf-directed guide (20 min)\nleap.docsify-this.net ↗\n\n\nFull documentation\nreadme.docsify-this.net ↗\n\n\nVideo demos (30–45 sec each)\nYouTube playlist ↗\n\n\n\n\n\n\nAll About Markdown\n\nMarkdown Guide ↗\nImproving the Accessibility of Your Markdown ↗\n\nFurther Reading\n\nThinking Big and Small ↗\nDesign, in the Big and Small ↗\n\nFrom the HibbittsDesign.org Blog: - Big Design and Small Design ↗ - Docsify-This Core Design Principles ↗ - What Documentation Is Really About: Showing Users You Care ↗\n\nSession: Interactivity and Web Design – EDCI 337, University of Victoria\nPresenter: Paul Hibbitts – hibbittsdesign.org\nNote: Source material analysis and guide development assisted by Claude (Anthropic)\nLicense: CC BY 4.0 \n\nRemember: The Big and Small Design questions don’t stop here – they apply to every tool, course, and experience you’ll ever build. 🚀"
   },
   {
-    "objectID": "posts/may-24/index.html#agenda-for-monday-may-25",
-    "href": "posts/may-24/index.html#agenda-for-monday-may-25",
-    "title": "Week 3 - May 25",
-    "section": "Agenda for Monday, May 25",
-    "text": "Agenda for Monday, May 25\nCheck Friday’s update for more details, but some quick reminders:\n\nMultimedia Story DRAFT\n\nYour Multimedia story DRAFT is due Monday, and I’ve published instructions on the course site\n\nDon’t panic if you don’t feel like it is fully ready to submit. This is a process-based course, and the course is not over. You don’t get penalized for early mistakes!\neven if you only have a handful of notes or sketches, post those.\n\n\n\n\nGrading and Assessment\n\ncheck the course website under ‘Assignments’\n\n\n\nCourse Feed\n\n‘Learner Posts’ page, accessible under the ‘Sections’ menu item.\n\nThe best way to respond to someone is to create a post on your own site that links to the post you are commenting about.\nif you don’t see your own posts in the feed:\n\nmake sure you have completed the Learning Pathways Survey\nyou might need to use a category on your edci337 posts."
-  },
-  {
-    "objectID": "posts/may-24/index.html#active-learning",
-    "href": "posts/may-24/index.html#active-learning",
-    "title": "Week 3 - May 25",
-    "section": "Active Learning",
-    "text": "Active Learning\n\nBreakout Discussion 1\n\nIf students are to learn desired outcomes in a reasonably effective manner, then the teacher’s fundamental task is to get students to engage in learning activities that are likely to result in their achieving those outcomes. It is important to remember that what the student does is more important than what the teacher does. (Shuell 1986, 429)\n\n\n\nBreakout Discussion 2\n\npen and paper\n2 groups\nlisten carefully and recall\nwrite down as much as you remember\n\n\nQuestions\n\nHow many of the sentences could you remember?\nWhich group were you in?\nWhat do you notice?\nWhat do you wonder?"
-  },
-  {
-    "objectID": "posts/may-24/index.html#learning-pods",
-    "href": "posts/may-24/index.html#learning-pods",
-    "title": "Week 3 - May 25",
-    "section": "Learning Pods",
-    "text": "Learning Pods\n\nmeet with your learning pods to:\n\nset up meetings for this week\nintroduce each other to your multimedia story drafts."
-  },
-  {
-    "objectID": "posts/may-24/index.html#things-to-do-this-week",
-    "href": "posts/may-24/index.html#things-to-do-this-week",
-    "title": "Week 3 - May 25",
-    "section": "Things to do this week",
-    "text": "Things to do this week\n\nmeet with your learning pod to review each other’s multimedia story drafts (Sign-up link in Brightspace if needed.)\nread and engage with the Active Learning post Course site or Mirror Site\n3-5 Daily Creates focussed on Audio.\nsummary blog post of your Daily Creates.\n\nAs always, I’m cheering you on! Please reach out if you have any questions or concerns."
-  },
-  {
-    "objectID": "posts/may-20/index.html",
-    "href": "posts/may-20/index.html",
-    "title": "Week 2 - May 20",
+    "objectID": "posts/hibbitts-jun-8/index.html#how-design-decisions-can-impact-friction-a-docsify-this-case-study",
+    "href": "posts/hibbitts-jun-8/index.html#how-design-decisions-can-impact-friction-a-docsify-this-case-study",
+    "title": "Big Design, Small Design",
     "section": "",
-    "text": "Hi everyone! I trust you had a good long weekend!\nI apologize for the late update post for this week."
+    "text": "Follow along • Try it out • Apply it later\n\nDocsify-This is an open-source web app that instantly turns online Markdown files into styled web pages.\nNo web server. No installation. No build process.\n\n“I’m blown away just by the fact you put a URL into Docsify-This and then you get a URL back for a web page… done!”\n– J. Groom, Co-founder, Reclaim Hosting"
   },
   {
-    "objectID": "posts/may-20/index.html#multimedia-story-draft",
-    "href": "posts/may-20/index.html#multimedia-story-draft",
-    "title": "Week 2 - May 20",
-    "section": "Multimedia Story DRAFT",
-    "text": "Multimedia Story DRAFT\n(Formerly titled Multimedia Story #1)\nI’ve published details regarding your first big assignment, due Monday, May 25.\nI recognize this is a quick turnaround, but please know that I am interested in seeing how you are progressing by Monday and am very much expecting this to be a work in progress!\n\n\n\n\n\n\nI will absolutely remember that this has been a goofy start to the course, especially given the fact that several of you are still waiting for your blogs to be properly set up, AND that the course website was unavailable for several hours yesterday and has been super slow and flaky today due to a DDOS attack on our web host."
+    "objectID": "posts/hibbitts-jun-8/index.html#session-outline",
+    "href": "posts/hibbitts-jun-8/index.html#session-outline",
+    "title": "Big Design, Small Design",
+    "section": "",
+    "text": "What We’re Covering\nWhat You’ll Take Away\n\n\n\n\n📝 Markdown Overview\nWhy publishing – not writing – is the real barrier\n\n\n🔍 Big Design, Small Design\nA framework for identifying friction at any design level\n\n\n▶️ Docsify-This\nHow structural decisions lower barriers for real users\n\n\n⚡ See It in Action\nHands-on: publish a page in under a minute\n\n\n🎯 Resources to Go\nWhat to bookmark and try after the session\n\n\n\n\n[!TIP] This guide works best alongside a browser tab showing live examples – links with ↗ open automatically in a new tab for this purpose."
   },
   {
-    "objectID": "posts/may-20/index.html#reading-and-tasks-for-this-week",
-    "href": "posts/may-20/index.html#reading-and-tasks-for-this-week",
-    "title": "Week 2 - May 20",
-    "section": "Reading and tasks for this week",
-    "text": "Reading and tasks for this week\n\nBy now you should have read and explored the resources in the ‘Theories of Multimedia Learning’ post. This is a critical post as it sets the stage for the rest of the course.\nThis week, focus on ‘Text and Image…’\nYou may find it helpful to peek ahead at ‘Storytelling’ and ‘Design Process’ while you are planning your Multimedia story draft. However, do not spend too much time on these as we will discuss them later.\nPlease ensure that you have signed up for a Learning Pod and have set a meeting time. You should have met once by now to discuss course ideas and concepts. You should also use your Learning Pod to help you plan and execute your adventure! (Linked in Brightspace)\nIf you haven’t yet done so, please complete the Learning Pathways Survey. (Linked in Brightspace)\n\nAs always, I’m here to support you! Please let me know by email if you are having difficulty. Feel free to book a meeting with me either individually or as a Learning Pod."
+    "objectID": "posts/hibbitts-jun-8/index.html#markdown-overview",
+    "href": "posts/hibbitts-jun-8/index.html#markdown-overview",
+    "title": "Big Design, Small Design",
+    "section": "",
+    "text": "Markdown is a lightweight way to format plain text – readable as-is, renderable anywhere. Here’s an example Markdown source file ↗ to explore.\n\n\n\n\n\nYou Type\nYou Get\n\n\n\n\n# Heading 1\nLarge heading\n\n\n## Heading 2\nMedium heading\n\n\n**bold text**\nbold text\n\n\n*italic text*\nitalic text\n\n\n[link text](URL)\nClickable link\n\n\n- Item\n• Bulleted list\n\n\n\n\n\n\nWriting Markdown is quite learnable, but publishing it has traditionally required a web server, a build process, or developer-type skills. That’s a barrier many educators and open publishers can’t cross on their own.\n\n\n\n\nA Markdown file stored online (GitHub, Codeberg, Gist, or any web-accessible URL)\nThat’s it – Docsify-This reads it dynamically and does the rest\n\n\n“Keeping all my course notes as plain text files and deploying them through GitHub and Docsify-This is easy and makes my course development a breeze. Plus, I keep all my materials locally, and can reuse them without being reliant on Canvas.”\n– J. Maxwell, Director & Associate Professor, Publishing Program, Simon Fraser University"
+  },
+  {
+    "objectID": "posts/hibbitts-jun-8/index.html#big-design-small-design-1",
+    "href": "posts/hibbitts-jun-8/index.html#big-design-small-design-1",
+    "title": "Big Design, Small Design",
+    "section": "",
+    "text": "A practical interaction design (IxD) framework to consider where a design problem lives, and what design level addresses it.\nFriction is one lens – but Big and Small Design also encompass opportunities and the conditions that support people in reaching their goals.\nDocsify-This is the example here, but the questions this framework asks apply to almost any tool, platform, or learning environment.\n\n\nThe experience around and beyond the interface.\nAsk:\n❓ Who may face headwinds, be left out, or drop off – and why?\n❓ What structural decisions – workflows, platforms, portability – create friction before anyone starts?\nKey structural choices in Docsify-This ↗: - Your files stay where you store them; Docsify-This reads dynamically - Removes publishing and maintenance friction, not the initial upload step - Accessibility built into the structure: semantic HTML, keyboard navigable, low visual noise\n\n\nFurther details about Big Design\n\nBig Design asks us to think about outcomes over outputs – not just “did the tool publish the page?” but “did the intended audience get to publish at all?”\nDocsify-This example:\nTraditional publishing workflows store content within the platform… Docsify-This changes the structure: your files stay where you originally store them. It doesn’t eliminate every barrier before you start. Getting your file onto GitHub or Codeberg is still a step. But it removes the publishing and maintenance friction that traditionally follows.\nThis is a common open-source challenge – Big Design often gets far less attention than the interface itself, leaving less tech-savvy users behind. Docsify-This was designed with the publishing gap in mind.\nAccessibility was baked into that structure from the start: semantic HTML, keyboard navigable, low visual noise. That means an author focused on their content automatically gets an accessible result.\n\n\n\n\nThe experience within the interface.\nAsk:\n❓ Is the experience clear and purposeful at every interaction?\n❓ Are power features accessible without cluttering the simple path for everyone else?\nKey interface choices in Docsify-This ↗: - Progressive disclosure: essentials first, deeper options when wanted - “Show More Page Appearance Options »” reveals advanced controls only when needed - Pre-filled, pre-selected URL field: one less click, one less frustration\n\n\nFurther details about Small Design\n\nDocsify-This example:\nDocsify-This uses progressive disclosure – the Web Page Builder shows the essentials first, with more options available for those who want to go further. Open Docsify-This.net ↗ to see this in action. Key options like page layout and an “Edit this Page” link for GitHub or Codeberg files are immediately available – all changing how the page appears without touching the content itself.\nIn addition, the “Show More Page Appearance Options »” link reveals additional options only when needed.\nAnd then there’s Micro Design – the details that seem small but do a lot of work.\nDocsify-This shows two Micro Design details working together: the URL input field arrives pre-filled with a demo URL and already selected – tap once to see the tool work, or paste your own URL to replace it instantly.\nOne detail at a time. One less click. One less small frustration, multiplied across every person who has ever used the tool."
+  },
+  {
+    "objectID": "posts/hibbitts-jun-8/index.html#using-the-framework",
+    "href": "posts/hibbitts-jun-8/index.html#using-the-framework",
+    "title": "Big Design, Small Design",
+    "section": "",
+    "text": "Next time you encounter friction using any tool: assess which level it belongs to.\n🔎 Big Design – people face barriers before they even begin\n🔎 Small Design – people struggle to achieve their goals\n🔎 Micro Design – people stumble on the small details"
+  },
+  {
+    "objectID": "posts/hibbitts-jun-8/index.html#brief-pause",
+    "href": "posts/hibbitts-jun-8/index.html#brief-pause",
+    "title": "Big Design, Small Design",
+    "section": "",
+    "text": "What we’ve covered so far:\n✅ Markdown overview and the publishing friction problem\n✅ Big / Small Design as an IxD framework\nComing up: Core Design Principles of Docsify-This!"
+  },
+  {
+    "objectID": "posts/hibbitts-jun-8/index.html#docsify-this-design-decisions-in-action",
+    "href": "posts/hibbitts-jun-8/index.html#docsify-this-design-decisions-in-action",
+    "title": "Big Design, Small Design",
+    "section": "",
+    "text": "These core design principles guided the development of Docsify-This. As you read through, notice how each one reflects a structural choice.\n\n\n\n\n\n\n\n\n\nPrinciple\nWhat It Means in Practice\n\n\n\n\nZero Setup and Maintenance Publishing\nNo build process, no web server, no dedicated publishing account required\n\n\nSeparation of Content and Presentation\nSame Markdown file, different styles for different contexts\n\n\nPlatform Independence and Choice\nNot locked into any one hosting service or workflow\n\n\nYour Content, Your Control\nFiles stay in GitHub – Docsify-This reads them dynamically\n\n\nSupport the 5 Rs of OER\nContent stays open, portable, and reusable by others (Retain, Reuse, Revise, Remix, Redistribute)\n\n\nAuthors Helping Other Authors\nURL parameters can be pre-configured and shared with others"
+  },
+  {
+    "objectID": "posts/hibbitts-jun-8/index.html#see-it-in-action",
+    "href": "posts/hibbitts-jun-8/index.html#see-it-in-action",
+    "title": "Big Design, Small Design",
+    "section": "",
+    "text": "One URL. One page. Right now.\n\n\n1. Open the Docsify-This Web Page Builder\n\nOpen Docsify-This.net ↗\n\nNotice the URL field is already selected and waiting. (A small but deliberate detail.)\n2. Use this Markdown file URL\n\ngithub.com/hibbitts-design/docsify-this-one-page-article/blob/main/home.md ↗ Copy URL\n\n3. Press “Publish as a Web Page”\nA Markdown file becomes a styled web page in seconds. That’s the moment of delight – and it’s intentional.\n\n[!NOTE] This activity uses a pre-hosted file – when publishing your own content requires a place to store it online, such as GitHub or Codeberg.\n\n\n\n\nHow to adjust a URL parameter: - Edit the URL directly in your browser’s address bar - Remove #/, if present, from the end of the URL - Add your parameter with & or modify an existing one\nAdd one of these to the end of your published page URL and press Enter:\n\n\n\nAdd to URL\nWhat happens\n\n\n\n\n&sidebar=true\nDisplay Docsify sidebar\n\n\n&sidebar=true&maxLevel=3\nDisplay Docsify sidebar with headings to level 3\n\n\n&font-size=28px\nText gets larger for presenting\n\n\n&dark-mode=on\nDark theme always on"
+  },
+  {
+    "objectID": "posts/hibbitts-jun-8/index.html#the-key-takeaway",
+    "href": "posts/hibbitts-jun-8/index.html#the-key-takeaway",
+    "title": "Big Design, Small Design",
+    "section": "",
+    "text": "Every design decision you saw today – big, small, or micro – started with a scenario-based question: who is trying to do what, and what friction stands between them and their goal?\nThat question doesn’t change whether you’re building a publishing tool, designing a course, or choosing which platform your students will use. The framework travels.\n\n“Experience design is ultimately a way to show people that you care. That applies to tools, to documentation, and to the learning environments you’ll design as educators.”"
+  },
+  {
+    "objectID": "posts/hibbitts-jun-8/index.html#session-wrap-up",
+    "href": "posts/hibbitts-jun-8/index.html#session-wrap-up",
+    "title": "Big Design, Small Design",
+    "section": "",
+    "text": "What we’ve done today:\n\n✅ Markdown overview and the publishing friction problem\n✅ Big / Small Design as an IxD framework\n✅ Docsify-This design decisions in action\n✅ Docsify-This in action: publishing a page and adjusting URL parameters\n\nBefore you leave: - [ ] Bookmark this guide - [ ] Bookmark a Docsify-This example URL to revisit later\nAfter today’s session: - [ ] Try the self-directed Leap into Open Publishing guide ↗ – 20 minutes, hands-on, no setup - [ ] Apply the Big / Small / Micro framework to a tool or experience you’re designing or evaluating - [ ] Next time you feel friction using a tool – identify which design level it belongs to"
+  },
+  {
+    "objectID": "posts/hibbitts-jun-8/index.html#resources-to-go",
+    "href": "posts/hibbitts-jun-8/index.html#resources-to-go",
+    "title": "Big Design, Small Design",
+    "section": "",
+    "text": "Resource\nLink\n\n\n\n\nWeb Page Builder\ndocsify-this.net ↗\n\n\nProject overview\nhibbittsdesign.org ↗\n\n\nSelf-directed guide (20 min)\nleap.docsify-this.net ↗\n\n\nFull documentation\nreadme.docsify-this.net ↗\n\n\nVideo demos (30–45 sec each)\nYouTube playlist ↗\n\n\n\n\n\n\nAll About Markdown\n\nMarkdown Guide ↗\nImproving the Accessibility of Your Markdown ↗\n\nFurther Reading\n\nThinking Big and Small ↗\nDesign, in the Big and Small ↗\n\nFrom the HibbittsDesign.org Blog: - Big Design and Small Design ↗ - Docsify-This Core Design Principles ↗ - What Documentation Is Really About: Showing Users You Care ↗\n\nSession: Interactivity and Web Design – EDCI 337, University of Victoria\nPresenter: Paul Hibbitts – hibbittsdesign.org\nNote: Source material analysis and guide development assisted by Claude (Anthropic)\nLicense: CC BY 4.0 \n\nRemember: The Big and Small Design questions don’t stop here – they apply to every tool, course, and experience you’ll ever build. 🚀"
+  },
+  {
+    "objectID": "posts/may-22/index.html",
+    "href": "posts/may-22/index.html",
+    "title": "Week 2 - May 22",
+    "section": "",
+    "text": "A few quick updates as we head into the weekend.\nYour Multimedia story draft is due on Monday, and I’ve published instructions on the course site. Just a reminder that I expect this to be a work-in-progress, and not fully refined. I’ve also linked the the grading rubric that I use. You can find it by clicking the ‘Assessment’ item under the ‘Assignments’ menu item. You can also find it on this mirror site at the ‘Assessment’ link in the left sidebar.\nI know you don’t have much reason to trust me yet as this is the first assignment you have done for me, but please know that I am interested in your thoughts and process about this and if you make that clear, and connect ideas to the course content, you will be fine. I am not out to find fault in your work.\nAlso, I have published a ‘Learner Posts’ page, accessible under the ‘Sections’ menu item. Feel free to read and interact with other learners’ blog posts. The best way to respond to someone is to create a post on your own site that links to the post you are commenting about. That way, the other blog will be notified and your post will show up as a ‘Trackback’, which is like a comment on their blog.\nFinally, I’ve really enjoyed reading your posts, and I appreciate your work at staying on top of EDCI337 (and other courses as applicable).\nAs always, I’m cheering you on! Please reach out if you have any questions or concerns.\n\n\n\nReuseCC-BY"
+  },
+  {
+    "objectID": "posts/may-27/index.html",
+    "href": "posts/may-27/index.html",
+    "title": "Week 3 - May 27",
+    "section": "",
+    "text": "Sample multimedia story…\nHere is a sample of a multimedia story from Instagram. It’s a bit short for this class, and maybe you want to reflect on this type of story in light of Mayer’s principles. What principles does it align with? What principles does it break?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView this post on Instagram\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA post shared by Molly Zhang ((mmollyzhang?))\n\n\n\n\n\n\n\nReuseCC-BY"
+  },
+  {
+    "objectID": "posts/may-17/index.html",
+    "href": "posts/may-17/index.html",
+    "title": "Long Weekend Update",
+    "section": "",
+    "text": "Important\n\n\n\nI’ve added to Brightspace a draft of the syllabus, because you need to see something. This version hasn’t been officially approved by the dep’t, so is subject to change with advance notice!\n\n\nQuick update for this weekend, as many of you are trying to get going on your first tasks of the course, which, as you know, includes setting up a WordPress blog at https://opened.ca, or, as I may refer to it, the OpenETC.\nThe OpenETC is run as a volunteer learning infrastructure project by a small team of folks, providing BC postsecondary students with accessible and open learning blogs, among other things.\nAs it is a small team, sometimes things get a bit bogged down, and the beginning of a semester is often one of those times, so your patience is requested.\nIf you see a message that reads\n\n“Your site is currently being set up. Please check back in a few minutes!”\n\n…and it has been like that for more than a day or so, the resolution is simple. Please send me an email with the following information:\n\nthe class you are in (EDCI337)\nyour UVic email address (can’t be any other email)\nyour username on the openETC\nthe URL you would like to use for the site\nthe title you would like to use for the site\n\nI will forward this on to the OpenETC admins and they will be able to resolve the situation.\nThis may take a day or so, which obviously means that you will be unable to publish a post for a day or two. Don’t worry about that, you won’t lose credit for your work. My suggestion is that if you are waiting for your blog, you can compose your intro in the Brightspace forum for now and copy paste into WordPress once you have access.\n\n\n\n\n\n\nNoneReminders\n\n\n\n\nThere is no EDCI 337 meeting tomorrow (Monday, May 18) due to the holiday long weekend!\nPlease complete the Learning Pathways Survey linked in Brightspace.\nSign up for a Learning Pod.\nDraft or Publish your Self-Intro post. You can do this in the Brightspace forum if you are waiting on your blog."
+  },
+  {
+    "objectID": "posts/may-26/index.html",
+    "href": "posts/may-26/index.html",
+    "title": "Week 3 - May 26",
+    "section": "",
+    "text": "Super quick update…"
+  },
+  {
+    "objectID": "posts/may-26/index.html#alt-lab-audiography",
+    "href": "posts/may-26/index.html#alt-lab-audiography",
+    "title": "Week 3 - May 26",
+    "section": "ALT Lab Audiography",
+    "text": "ALT Lab Audiography\nI just discovered that there is a plugin in your opened.ca site called ‘ALT Lab Audiography’, which seems to allow you to annotate audio files directly in WordPress.\nI have never used this plugin, but you may want to try it out.\n\n\n\nALT Lab Audiography Plugin"
+  },
+  {
+    "objectID": "posts/may-26/index.html#activation",
+    "href": "posts/may-26/index.html#activation",
+    "title": "Week 3 - May 26",
+    "section": "Activation",
+    "text": "Activation\nNavigate to your Dashboard &gt; Plugins, then click ‘Activate’ on the plugin."
   },
   {
     "objectID": "posts/may-11/index.html",
@@ -333,46 +403,60 @@
     "text": "Post a link to Brightspace\nOnce you have published your blog entry, post a link to your introduction in the Brightspace discussion forum.\nOnce you’ve posted your introduction, take time to meet your peers:\n\nReview/read several of your classmates’ introductions.\n\nEngage substantively with a few others, especially those who haven’t received much feedback yet.\n\nUse this opportunity to find peers with shared interests, goals, or majors who could potentially form a small group for synchronous discussions or identify a team for the challenge projects."
   },
   {
-    "objectID": "posts/may-26/index.html",
-    "href": "posts/may-26/index.html",
-    "title": "Week 3 - May 26",
+    "objectID": "posts/may-20/index.html",
+    "href": "posts/may-20/index.html",
+    "title": "Week 2 - May 20",
     "section": "",
-    "text": "Super quick update…"
+    "text": "Hi everyone! I trust you had a good long weekend!\nI apologize for the late update post for this week."
   },
   {
-    "objectID": "posts/may-26/index.html#alt-lab-audiography",
-    "href": "posts/may-26/index.html#alt-lab-audiography",
-    "title": "Week 3 - May 26",
-    "section": "ALT Lab Audiography",
-    "text": "ALT Lab Audiography\nI just discovered that there is a plugin in your opened.ca site called ‘ALT Lab Audiography’, which seems to allow you to annotate audio files directly in WordPress.\nI have never used this plugin, but you may want to try it out.\n\n\n\nALT Lab Audiography Plugin"
+    "objectID": "posts/may-20/index.html#multimedia-story-draft",
+    "href": "posts/may-20/index.html#multimedia-story-draft",
+    "title": "Week 2 - May 20",
+    "section": "Multimedia Story DRAFT",
+    "text": "Multimedia Story DRAFT\n(Formerly titled Multimedia Story #1)\nI’ve published details regarding your first big assignment, due Monday, May 25.\nI recognize this is a quick turnaround, but please know that I am interested in seeing how you are progressing by Monday and am very much expecting this to be a work in progress!\n\n\n\n\n\n\nI will absolutely remember that this has been a goofy start to the course, especially given the fact that several of you are still waiting for your blogs to be properly set up, AND that the course website was unavailable for several hours yesterday and has been super slow and flaky today due to a DDOS attack on our web host."
   },
   {
-    "objectID": "posts/may-26/index.html#activation",
-    "href": "posts/may-26/index.html#activation",
-    "title": "Week 3 - May 26",
-    "section": "Activation",
-    "text": "Activation\nNavigate to your Dashboard &gt; Plugins, then click ‘Activate’ on the plugin."
+    "objectID": "posts/may-20/index.html#reading-and-tasks-for-this-week",
+    "href": "posts/may-20/index.html#reading-and-tasks-for-this-week",
+    "title": "Week 2 - May 20",
+    "section": "Reading and tasks for this week",
+    "text": "Reading and tasks for this week\n\nBy now you should have read and explored the resources in the ‘Theories of Multimedia Learning’ post. This is a critical post as it sets the stage for the rest of the course.\nThis week, focus on ‘Text and Image…’\nYou may find it helpful to peek ahead at ‘Storytelling’ and ‘Design Process’ while you are planning your Multimedia story draft. However, do not spend too much time on these as we will discuss them later.\nPlease ensure that you have signed up for a Learning Pod and have set a meeting time. You should have met once by now to discuss course ideas and concepts. You should also use your Learning Pod to help you plan and execute your adventure! (Linked in Brightspace)\nIf you haven’t yet done so, please complete the Learning Pathways Survey. (Linked in Brightspace)\n\nAs always, I’m here to support you! Please let me know by email if you are having difficulty. Feel free to book a meeting with me either individually or as a Learning Pod."
   },
   {
-    "objectID": "posts/may-17/index.html",
-    "href": "posts/may-17/index.html",
-    "title": "Long Weekend Update",
+    "objectID": "posts/may-24/index.html",
+    "href": "posts/may-24/index.html",
+    "title": "Week 3 - May 25",
     "section": "",
-    "text": "Important\n\n\n\nI’ve added to Brightspace a draft of the syllabus, because you need to see something. This version hasn’t been officially approved by the dep’t, so is subject to change with advance notice!\n\n\nQuick update for this weekend, as many of you are trying to get going on your first tasks of the course, which, as you know, includes setting up a WordPress blog at https://opened.ca, or, as I may refer to it, the OpenETC.\nThe OpenETC is run as a volunteer learning infrastructure project by a small team of folks, providing BC postsecondary students with accessible and open learning blogs, among other things.\nAs it is a small team, sometimes things get a bit bogged down, and the beginning of a semester is often one of those times, so your patience is requested.\nIf you see a message that reads\n\n“Your site is currently being set up. Please check back in a few minutes!”\n\n…and it has been like that for more than a day or so, the resolution is simple. Please send me an email with the following information:\n\nthe class you are in (EDCI337)\nyour UVic email address (can’t be any other email)\nyour username on the openETC\nthe URL you would like to use for the site\nthe title you would like to use for the site\n\nI will forward this on to the OpenETC admins and they will be able to resolve the situation.\nThis may take a day or so, which obviously means that you will be unable to publish a post for a day or two. Don’t worry about that, you won’t lose credit for your work. My suggestion is that if you are waiting for your blog, you can compose your intro in the Brightspace forum for now and copy paste into WordPress once you have access.\n\n\n\n\n\n\nNoneReminders\n\n\n\n\nThere is no EDCI 337 meeting tomorrow (Monday, May 18) due to the holiday long weekend!\nPlease complete the Learning Pathways Survey linked in Brightspace.\nSign up for a Learning Pod.\nDraft or Publish your Self-Intro post. You can do this in the Brightspace forum if you are waiting on your blog."
+    "text": "Week 3 is here!"
   },
   {
-    "objectID": "posts/may-27/index.html",
-    "href": "posts/may-27/index.html",
-    "title": "Week 3 - May 27",
-    "section": "",
-    "text": "Sample multimedia story…\nHere is a sample of a multimedia story from Instagram. It’s a bit short for this class, and maybe you want to reflect on this type of story in light of Mayer’s principles. What principles does it align with? What principles does it break?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nView this post on Instagram\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA post shared by Molly Zhang ((mmollyzhang?))\n\n\n\n\n\n\n\nReuseCC-BY"
+    "objectID": "posts/may-24/index.html#agenda-for-monday-may-25",
+    "href": "posts/may-24/index.html#agenda-for-monday-may-25",
+    "title": "Week 3 - May 25",
+    "section": "Agenda for Monday, May 25",
+    "text": "Agenda for Monday, May 25\nCheck Friday’s update for more details, but some quick reminders:\n\nMultimedia Story DRAFT\n\nYour Multimedia story DRAFT is due Monday, and I’ve published instructions on the course site\n\nDon’t panic if you don’t feel like it is fully ready to submit. This is a process-based course, and the course is not over. You don’t get penalized for early mistakes!\neven if you only have a handful of notes or sketches, post those.\n\n\n\n\nGrading and Assessment\n\ncheck the course website under ‘Assignments’\n\n\n\nCourse Feed\n\n‘Learner Posts’ page, accessible under the ‘Sections’ menu item.\n\nThe best way to respond to someone is to create a post on your own site that links to the post you are commenting about.\nif you don’t see your own posts in the feed:\n\nmake sure you have completed the Learning Pathways Survey\nyou might need to use a category on your edci337 posts."
   },
   {
-    "objectID": "posts/may-22/index.html",
-    "href": "posts/may-22/index.html",
-    "title": "Week 2 - May 22",
-    "section": "",
-    "text": "A few quick updates as we head into the weekend.\nYour Multimedia story draft is due on Monday, and I’ve published instructions on the course site. Just a reminder that I expect this to be a work-in-progress, and not fully refined. I’ve also linked the the grading rubric that I use. You can find it by clicking the ‘Assessment’ item under the ‘Assignments’ menu item. You can also find it on this mirror site at the ‘Assessment’ link in the left sidebar.\nI know you don’t have much reason to trust me yet as this is the first assignment you have done for me, but please know that I am interested in your thoughts and process about this and if you make that clear, and connect ideas to the course content, you will be fine. I am not out to find fault in your work.\nAlso, I have published a ‘Learner Posts’ page, accessible under the ‘Sections’ menu item. Feel free to read and interact with other learners’ blog posts. The best way to respond to someone is to create a post on your own site that links to the post you are commenting about. That way, the other blog will be notified and your post will show up as a ‘Trackback’, which is like a comment on their blog.\nFinally, I’ve really enjoyed reading your posts, and I appreciate your work at staying on top of EDCI337 (and other courses as applicable).\nAs always, I’m cheering you on! Please reach out if you have any questions or concerns.\n\n\n\nReuseCC-BY"
+    "objectID": "posts/may-24/index.html#active-learning",
+    "href": "posts/may-24/index.html#active-learning",
+    "title": "Week 3 - May 25",
+    "section": "Active Learning",
+    "text": "Active Learning\n\nBreakout Discussion 1\n\nIf students are to learn desired outcomes in a reasonably effective manner, then the teacher’s fundamental task is to get students to engage in learning activities that are likely to result in their achieving those outcomes. It is important to remember that what the student does is more important than what the teacher does. (Shuell 1986, 429)\n\n\n\nBreakout Discussion 2\n\npen and paper\n2 groups\nlisten carefully and recall\nwrite down as much as you remember\n\n\nQuestions\n\nHow many of the sentences could you remember?\nWhich group were you in?\nWhat do you notice?\nWhat do you wonder?"
+  },
+  {
+    "objectID": "posts/may-24/index.html#learning-pods",
+    "href": "posts/may-24/index.html#learning-pods",
+    "title": "Week 3 - May 25",
+    "section": "Learning Pods",
+    "text": "Learning Pods\n\nmeet with your learning pods to:\n\nset up meetings for this week\nintroduce each other to your multimedia story drafts."
+  },
+  {
+    "objectID": "posts/may-24/index.html#things-to-do-this-week",
+    "href": "posts/may-24/index.html#things-to-do-this-week",
+    "title": "Week 3 - May 25",
+    "section": "Things to do this week",
+    "text": "Things to do this week\n\nmeet with your learning pod to review each other’s multimedia story drafts (Sign-up link in Brightspace if needed.)\nread and engage with the Active Learning post Course site or Mirror Site\n3-5 Daily Creates focussed on Audio.\nsummary blog post of your Daily Creates.\n\nAs always, I’m cheering you on! Please reach out if you have any questions or concerns."
   },
   {
     "objectID": "storytelling.html",
@@ -451,7 +535,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Week 3 - May 27\n\n\n\nsummer 2026\n\nmultimedia story\n\ninstagram\n\n\n\n\n\n\n\n\n\nMay 27, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 - May 26\n\n\n\nsummer 2026\n\nplugin\n\nWordPress\n\naudio\n\n\n\n\n\n\n\n\n\nMay 26, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 - May 25\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 24, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2 - May 22\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 22, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2 - May 20\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 20, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nLong Weekend Update\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 17, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 11, 2026\n\n\nColin Madland\n\n\n\n\n\nNo matching items",
+    "text": "Big Design, Small Design\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 - May 27\n\n\n\nsummer 2026\n\nmultimedia story\n\ninstagram\n\n\n\n\n\n\n\n\n\nMay 27, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 - May 26\n\n\n\nsummer 2026\n\nplugin\n\nWordPress\n\naudio\n\n\n\n\n\n\n\n\n\nMay 26, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 - May 25\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 24, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2 - May 22\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 22, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 2 - May 20\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 20, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nLong Weekend Update\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 17, 2026\n\n\nColin Madland\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\n\n\n\nsummer 2026\n\n\n\n\n\n\n\n\n\nMay 11, 2026\n\n\nColin Madland\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "About",
       "Home"
