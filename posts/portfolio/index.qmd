@@ -1,0 +1,51 @@
+---
+title: "Final Portfolio"
+author: "Colin Madland"
+date: "2026-06-15"
+date-modified: today
+license: "CC-BY"
+# bibliography: refs.bib
+---
+
+
+
+Your Final Portfolio assignment is your opportunity to showcase all your best and favourite learning from this course. It will be composed as a post published on your blog and will demonstrate explicitly **how** you met the learning outcomes of the course.
+
+## Learning Outcomes
+
+As a reminder, the learning outcomes for the course, as published on the syllabus are as follows:
+
+
+::: {.callout}
+
+By the end of this course you will be able to:
+
+1. Contextualize how learning informs interactive and multimedia experiences. 
+2. Apply multimedia design principles in planning your educational resources. 
+3. Engage in design thinking to create multimedia learning projects. 
+4. Apply storytelling principles in creating effective learning opportunities. 
+5. Describe and apply principles of effective interactive multimedia design. 
+6. Generate a variety of prototype artifacts including: comics, videos, and web pages. 
+7. Use GenAI appropriately as a tool to support creative activities.  (NOTE: 'Appropriate GenAI use' might be refusing to use GenAI.)
+
+:::
+
+## Structure
+
+Your post should make it very easy for me to find **evidence** that you met the course outcomes. That means that you may want to consider using the individual outcomes above as headings in your post followed by specific examples of your work in the class _linked in your post_. So yo need to tell me what you did, and how that meets the outcome.
+
+This means that you will need to do some interpretation of the learning outcomes. You have some freedom to decide what the learning outcomes mean in your particular context, which may vary from learner to learner. This doesn't mean that you can decide that the learning outcomes mean something that is not supported by the plain meaning of the language, but you should contextualize the outcomes to your situation.
+
+You also need to talk about ideas, concepts or skills that you struggled with. What didn't make sense and how did you work through those difficult areas.
+
+## Requirements
+
+You must:
+
+- describe how you met **_each_** outcome. 
+- link to **_evidence of your work_** that supports your claim you have met the outcomes. 
+- discuss and address the challenges you faced.  
+- _link_ to all references within your post. This includes other learners' posts, things in Brightspace, articles, books, or other resources from the library, websites that we used and talked about, etc. (I will check links.)
+- include a reference list.  
+- publish a blog post of 1200-1500 words, supplemented by media examples (e.g., daily create artifacts) that you have created during the course.  
+- end with a description of how your learning in this course could assist you in your future career, future courses, or your life in general.

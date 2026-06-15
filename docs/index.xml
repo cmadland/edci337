@@ -23,6 +23,14 @@
   <media:content url="https://cmadland.github.io/edci337/posts/jun-15/grocery-getter.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Final Portfolio</title>
+  <dc:creator>Colin Madland</dc:creator>
+  <link>https://cmadland.github.io/edci337/posts/portfolio/</link>
+  <description><![CDATA[ Your Final Portfolio assignment is your opportunity to showcase all your best and favourite learning from this course. It will be composed as a post published on your blog and will demonstrate explicitly <strong>how</strong> you met the learning outcomes of the course. ]]></description>
+  <guid>https://cmadland.github.io/edci337/posts/portfolio/</guid>
+  <pubDate>Mon, 15 Jun 2026 07:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Week 6b - June 15</title>
   <dc:creator>Colin Madland</dc:creator>
   <link>https://cmadland.github.io/edci337/posts/jun-15b/</link>
@@ -112,7 +120,7 @@
   <link>https://cmadland.github.io/edci337/posts/hibbitts-jun-8/</link>
   <description><![CDATA[ <strong>Follow along • Try it out • Apply it later</strong> ]]></description>
   <guid>https://cmadland.github.io/edci337/posts/hibbitts-jun-8/</guid>
-  <pubDate>Mon, 15 Jun 2026 19:15:46 GMT</pubDate>
+  <pubDate>Mon, 15 Jun 2026 23:21:50 GMT</pubDate>
 </item>
 </channel>
 </rss>
