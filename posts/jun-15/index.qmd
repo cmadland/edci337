@@ -1,0 +1,174 @@
+---
+title: "Week 6a - June 15"
+author: "Colin Madland"
+date: "2026-06-15"
+date-modified: last-modified
+categories: [summer 2026, dataviz]
+image: "grocery-getter.jpeg"
+image-alt: "My bike in 'Grocery-getter' mode, appropriately parked outside the grocery store with a full Ortlieb seat bag."
+license: CC-BY
+bibliography: ../../refs.bib
+bibliographystyle: apa
+---
+
+
+::: {.callout-note}
+
+This post was originally published by Mary Watt in 2023. I have updated some things for date-relevance and broken links.
+
+:::
+
+
+We are constantly inundated with information from a wide variety of sources. Data visualization helps us make sense of this information and gain new insights into trends, patterns, and relationships that may not be immediately apparent from looking at raw data. Knowing how to do this skillfully is very useful as a media and multimedia designer. It also helps you identify when data is being misused. This week we'll take a look at some visualization techniques, their strengths and limitations, discuss the ethical considerations involved and also try out a few simple data visualization tools.
+
+## Learning Outcomes
+
+By the end of this week you will be able to:
+
+- Identify and select appropriate visualization techniques for different types of data.  
+- Describe the effect of visualizing data on communicating complex information. 
+- List and describe six ethical considerations when creating visual representations of data.  
+- Use a simple data visualization tool to tell a story with data.  
+
+## Read/Watch
+
+[The Art of Data Visualization](https://youtu.be/AdSZJzb-aX8?si=2FEXtqeEOncBhhA7) (7 min) - PBS explores how data visualization has evolved over time and how it can help us see patterns and connections that might otherwise be hidden.
+
+{{< video https://youtu.be/AdSZJzb-aX8?si=2FEXtqeEOncBhhA7 >}}
+
+[The Beauty of Data Visualization](https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization) (18 min) Data journalist David McCandless explores how data visualization can help us understand complex ideas and patterns.
+
+[Data Visualization and Misrepresentation](https://youtu.be/x-rDVXVwW9s?si=Vj8gKk2mhh68Gf3K) (5 min) - A look at some of the ways data visualization can be manipulated to give misleading impressions. [See also Spurious Correlations](https://www.tylervigen.com/spurious-correlations).
+
+{{< video https://youtu.be/x-rDVXVwW9s?si=Vj8gKk2mhh68Gf3K >}}
+
+[Get out of your geographic music bubble](https://pudding.cool/2021/04/music-bubble/) (8 min) - A data visualization project from Pudding showing musical tastes by region using maps and other data visualization tools. 
+
+[Income Mobility Charts for Girls, Asian-Americans and Other Groups. Or Make Your Own.](https://www.nytimes.com/interactive/2018/03/27/upshot/make-your-own-mobility-animation.html?module=inline) - The New  York Times (nytimes.com) This interactive, animated data visualization from the NY Times allows the user to explore the data from many angles. 
+
+[_SportsBall on Instagram](https://www.instagram.com/_sportsball/) (Infinite Scroll - beware!) Sportsball is a dataviz project related to sportsball. Feel free to watch their pinned reel called "What We Do" for some background.
+
+## Data Visualization 
+
+Data visualization is a powerful tool used in a wide range of fields, from science and engineering to business and social sciences. It allows us to represent complex data sets in a visual format, making it easier to understand and interpret information, and to communicate insights effectively.
+
+There are several principles of good data visualization that can help ensure that the data is effectively communicated. Here are some of the most important principles:
+
+Understand your audience
+: Know who your audience is and what they need to know. Is the goal to explain something or is it to allow people to explore and make their own discoveries about the data? 
+
+Keep it simple
+: Resist the temptation to create elaborate and complex charts. Keep it simple and make use of people's familiarity with common charts. Avoid 3D charts - they can distort the user's perceptions of the data. Keep clutter away. 
+
+Use appropriate visualizations
+: Use visualizations that are appropriate for the type of data you are presenting. For example, use a bar chart for discrete data and a line chart for continuous data. 
+
+Label clearly
+: Ensure that all labels, axes, and legends are clear and easy to read. Use descriptive labels that explain what the data represents. 
+
+Use color very intentionally
+: Use color to highlight important information and make the visualization more appealing. However, be careful not to use too many colours, and ensure that colour is used consistently throughout the visualization. Some designers like to use gray for most of the graphic to allow highlighted information to 'pop' with colour. Be aware of the effects of colour blindness on the accessibility of your graph. 
+
+Provide context
+: Provide context for the data by including relevant information such as units of measurement and a description of the data source. 
+
+Tell a story
+: Use the visualization to tell a story and communicate a message. Use titles and captions to guide the audience and explain the key takeaways from the data. Don't try to tell every story at once. 
+
+When telling a story with data, it's important to choose the right type of chart. The site '[Data-to-Viz](https://www.data-to-viz.com)' will help you choose the best way to represent data based on the type of story you need to tell. 
+
+
+## Examples
+
+Here are some good examples of data visualizations that effectively apply the principles. As you look at them, ask yourself what story is being told and what design choices were made in creating these.  
+
+[The Wealth and Health of Nations](https://www.gapminder.org/tools/): This visualization, created by Hans Rosling and his team at Gapminder, uses animated bubble charts to show how the wealth and health of different countries has changed over time. The visualization is simple, easy to understand, and provides valuable context for the data.  
+<!-- 
+The New York Times' COVID-19 Tracking Map: The New York Times' COVID-19 tracking map is a powerful example of effective data visualization. The map uses color to highlight areas with high levels of COVID-19 cases, and provides additional information such as the number of cases and deaths in each location. The visualization is updated daily and provides valuable context for the ongoing pandemic. (Reference: The New York Times, COVID-19 Tracking Map: https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html) -->
+
+[Native-Land.ca](https://native-land.ca/maps/constellation): This tool helps visualize the locations and relationships between Indigenous peoples and the languages they speak.
+
+[The Internet Map](http://internet-map.net/): The Internet Map is an interactive visualization that shows the relationships between different websites. The visualization uses color and size to show the relative popularity of different websites, and allows users to explore the connections between different sites. The visualization is visually appealing and provides valuable context for understanding the structure of the internet. 
+
+[The Gender Pay Gap](https://pudding.cool/2018/08/gender-pay-gap/): This visualization, created by The Pudding, uses a series of stacked bar charts to show the gender pay gap across different industries. The visualization is simple and easy to understand, and provides valuable context for the ongoing conversation around gender pay inequality. 
+
+[The Global Carbon Budget](https://www.globalcarbonproject.org/carbonbudget/index.htm): This visualization, created by the Global Carbon Project, uses a series of line charts to show the global carbon budget and how it has changed over time. The visualization is visually appealing and provides valuable context for understanding the global impact of carbon emissions. 
+
+## Ethical Considerations in Data Visualization
+
+While we want to tell compelling stories with data we also have a responsibility to represent the information accurately and without bias. 
+
+Accuracy: Data visualizations must accurately represent the underlying data. This means that the data must be collected and processed using reliable methods and that any statistical analysis or visual representation must be accurate and transparent.
+
+Bias: Data visualizations can be biased if they are created with a particular agenda or viewpoint in mind. It's important to ensure that the data and the way it's presented are objective and unbiased.
+
+Privacy: Data used in visualizations should be de-identified to ensure that individual privacy is protected. This includes removing personally identifiable information, such as names and addresses.
+
+Consent: The individuals whose data is being used in visualizations should give their consent for its use. This includes ensuring that data is collected in compliance with relevant data protection legislation.
+
+Accessibility: Data visualizations should be designed to be accessible to all users. This includes ensuring that visualizations are designed with accessibility features, such as alt text for images and descriptive captions.
+
+Transparency: It's important to be transparent about the data sources, methodology, and assumptions used in creating visualizations. This helps ensure that the audience understands the context and limitations of the visualizations.
+
+Check [wtf.viz](https://viz.wtf) for examples of unethical, or maybe just incompetent, dataviz.
+
+## Building in Accessibility
+
+To make data visualizations that take into account accessibility standards, [we need to follow many of the same principles that we follow with any accessible multimedia design](https://stephanieevergreen.com/accessible/). You need to keep the design as simple as possible, provide alternatives for people with visual impairments and use colour intentionally. 
+
+
+### Here are some other considerations:
+
+Use clear and simple designs
+: Use simple and clear designs that are easy to read and understand. Avoid cluttered designs or overly complex visuals that can be difficult to navigate. Test it on mobile devices to see what the user experience is on a smaller screen.
+
+Provide alternative text
+: Provide alternative text for all visualizations so that users who are visually impaired or using screen readers can still access the information. Alternative text should describe the content and function of the visualizations in detail.
+
+Use colour effectively
+: Use colour to highlight important information, but avoid using colour as the only means of conveying information. Consider using patterns or textures to distinguish between different elements in the visualization. 
+
+Use appropriate contrast
+: Use appropriate contrast between text and background colors to ensure that the text is legible. This is especially important for users who are visually impaired or have color blindness.
+
+Use accessible data tables
+: Use accessible data tables to display tabular data. This includes ensuring that tables have clear headings and that the data is organized in a logical and meaningful way.
+
+Provide keyboard navigation
+: Ensure that users can navigate the visualization using a keyboard, as some users may not be able to use a mouse or other pointing device.
+
+Test for accessibility
+: Test the visualization for accessibility using tools like screen readers and color contrast checkers to ensure that it's accessible to all users. 
+
+Explore: Data Visualization Tools
+
+Here are a few more simple (and free or low cost) tools that can help you create engaging data visualizations:
+
+[Google Sheets](https://www.freecodecamp.org/news/data-visualization-in-google-sheets/): Google Sheets is a free, cloud-based spreadsheet software that includes a range of charting options for visualizing data. It's easy to use and can be accessed from any device with internet access.
+
+[Datawrapper](https://www.datawrapper.de/): Datawrapper is a free online tool that allows you to create interactive charts, maps, and tables. It's easy to use and has a range of customization options.
+
+[Canva Graphmaker](https://www.canva.com/graphs/): Canva has a graphmaker tool that includes a range of templates and design elements for creating data visualizations. It has a free option with some limitations and a low-cost option for students.
+
+[Tableau Public](https://www.tableau.com/blog/beginners-guide-tableau-public): Tableau Public is a free data visualization tool that allows you to create interactive dashboards and visualizations. It has a wide range of charting options and can connect to a range of data sources.
+
+[Infogram](https://infogram.com/): Infogram is a free online tool that allows you to create a range of charts, maps, and infographics. It has a drag-and-drop interface and a range of customization options.
+
+You can use this very simple dataset to experiment with different visualization techniques or use one of your own.
+
+[Sample Dataset](EDCI337-Sample-dataset-Data-Visualization.xlsx)
+
+Have time for a deeper dive? The University of Victoria Library has some self-guided workshops for using specific tools:
+
+[Introduction | Data Visualization & Narrative Maps](https://uviclibraries.github.io/data-visualization-and-narrative-maps/) (uviclibraries.github.io)
+
+[Introduction | Data Visualization with Tableau](https://uviclibraries.github.io/tableau/) (uviclibraries.github.io)
+
+## To Do This Week
+
+- Read everything in this post and the Read/Watch activities.  
+- Finish all outstanding assignments and blog posts and submit them on your personal blog.  
+
+
+
+

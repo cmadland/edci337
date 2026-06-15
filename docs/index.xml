@@ -10,7 +10,18 @@
 <atom:link href="https://cmadland.github.io/edci337/index.xml" rel="self" type="application/rss+xml"/>
 <description>EDCI 337 Mirror Site</description>
 <generator>quarto-1.9.36</generator>
-<lastBuildDate>Wed, 27 May 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 15 Jun 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Week 6a - June 15</title>
+  <dc:creator>Colin Madland</dc:creator>
+  <link>https://cmadland.github.io/edci337/posts/jun-15/</link>
+  <description><![CDATA[ This post was originally published by Mary Watt in 2023. I have updated some things for date-relevance and broken links. ]]></description>
+  <category>summer 2026</category>
+  <category>dataviz</category>
+  <guid>https://cmadland.github.io/edci337/posts/jun-15/</guid>
+  <pubDate>Mon, 15 Jun 2026 07:00:00 GMT</pubDate>
+  <media:content url="https://cmadland.github.io/edci337/posts/jun-15/grocery-getter.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Week 3 - May 27</title>
   <dc:creator>Colin Madland</dc:creator>
@@ -90,7 +101,7 @@
   <link>https://cmadland.github.io/edci337/posts/hibbitts-jun-8/</link>
   <description><![CDATA[ <strong>Follow along • Try it out • Apply it later</strong> ]]></description>
   <guid>https://cmadland.github.io/edci337/posts/hibbitts-jun-8/</guid>
-  <pubDate>Mon, 08 Jun 2026 20:27:09 GMT</pubDate>
+  <pubDate>Mon, 15 Jun 2026 18:39:59 GMT</pubDate>
 </item>
 </channel>
 </rss>
