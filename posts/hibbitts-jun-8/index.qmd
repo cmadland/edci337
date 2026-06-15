@@ -1,3 +1,9 @@
+---
+title: "Big Design, Small Design"
+author: Paul Hibbitts
+date: 2026-06-08
+---
+
 # Big Design, Small Design
 
 ## How Design Decisions Can Impact Friction — A&nbsp;Docsify-This Case Study <!-- {docsify-ignore} -->
