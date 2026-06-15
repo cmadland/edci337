@@ -1,0 +1,162 @@
+---
+title: "Week 6b - June 15"
+author: "Colin Madland"
+date: "2026-06-15"
+date-modified: last-modified
+categories: [summer 2026, dataviz]
+image: "stained-glass-florence.jpeg"
+image-alt: "Stained glass window in the Florence Nightingale Museum in London, England "
+license: CC-BY
+bibliography: ../../refs.bib
+bibliographystyle: apa
+---
+
+
+::: {.callout-note}
+
+This post was originally published by Rich McCue in 2021. I have updated some things for date-relevance and broken links. There are some overlaps with Mary Watt's post.
+
+:::
+
+
+## By the end of this post you should be able to:
+- Describe how Florence Nightingale’s use of statistics and data visualization had a major impact on modern healthcare and health informatics. 
+- List the multimedia learning principles and learning theories that you should keep in mind as you create data visualizations. 
+- Create 2 or more data visualizations while working through either the Data Visualization Tools workshop -OR- the Data Visualization with Tableau workshop
+
+
+## Florence Nightingale and her incredibly influential Rose Chart
+
+
+![Florence Nightingale](Florence_Nightingale.jpg)
+By Henry Hering (1814-1893) - <a rel="nofollow" class="external text" href="https://www.npg.org.uk/collections/search/portrait/mw59323/Florence-Nightingale">NPG x82368</a> from National Portrait Gallery, London, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=61520366">Link</a>
+
+Can data visualization and Excel charts be a matter of life and death? It’s hard to imagine how they could have so much influence, but if we look back to 1858 we find that a famous European nurse, Florence Nightingale, was not only renowned for her career in nursing but was also “one of the most prominent statisticians in history, who used her passion for statistics to save lives of soldiers during the Crimean war and did groundbreaking work in data visualization.” (Richardson et al., 2020)
+
+## Rose Diagram
+
+![Florence Nightingale’s Rose Chart](nightingale-mortality.jpg)
+
+By <a href="https://en.wikipedia.org/wiki/en:Florence_Nightingale" class="extiw" title="w:en:Florence Nightingale"><span title="English social reformer, statistician, and founder of modern nursing (1820–1910)">Florence Nightingale</span></a> - <a rel="nofollow" class="external free" href="https://www.davidrumsey.com/luna/servlet/s/h6xid2">https://www.davidrumsey.com/luna/servlet/s/h6xid2</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1474443">Link</a>
+
+
+People usually think first of Nightingale the pioneering nurse, but it was actually her statistical skills that saved many more lives. Read the short Guardian newspaper article below that tells the story about how Florence’s work at an army hospital during the Crimean war led to the creation of her highly influential Rose Diagram (AKA an amazingly influential data visualization): Florence Nightingale, data journalist: information has always been beautiful
+
+> Florence Nightingale, data journalist: information has always been beautiful ~The Guardian Newspaper
+
+[Skim this gentle introduction to a range of interactive maps and data visualizations that are possible with modern tools](https://www.tableau.com/learn/articles/interactive-map-and-data-visualization-examples). Visualizations highlighted range from [FIFA World Cup 2026 Preview](https://public.tableau.com/app/profile/jacob.aronson/viz/FIFAWorldCup2026Preview/Overhaul) (be sure to check out Canada), to [Public holidays by country (compare China & Canada’s holidays for example)](https://public.tableau.com/shared/CNBMDYM68?:display_count=y&:origin=viz_share_link&:embed=y). I hope that the data visualizations on this page will be inspirational to you and open your eyes to the range of interactive multimedia learning possibilities that data visualizations provide.
+
+
+
+
+### OPTIONAL
+Now that you’ve read a summary of what Florence accomplished, why don’t you get a cup of tea, or go for a nice walk, and listen to master storyteller Tim Harford recount the outsized impact of Florence Nightingale’s Rose Diagram: Cautionary Tales – Florence Nightingale and her Geeks Declare War on Death
+
+
+<iframe frameBorder="0" height="482" scrolling="no" src="https://playlist.megaphone.fm/?e=HSW4090202523%E2%80%B3"
+width="100%"></iframe>
+
+## Examples
+
+Now let's look at three amazing data visualizations and reflect on how well they follow multimedia learning principles and learning theories:
+
+### March on Moscow by Charles Minard
+
+> “In 1812, Napoleon marched to Moscow in order to conquer the city. 98% of his soldiers died. Fifty years later, while his country yearned for their former Imperial glory, the Parisian engineer Charles Minard chose to remind his country of the horrors of war with data. The simple but fascinating temperature line below the viz shows how cold ultimately defeated Napoleon’s army. This viz still inspires those who see it to ponder the true cost of war.” 
+
+Click on the image below to see the interesting details of Minard’s visualization of the dwindling number of french troops as they get closers to Moscow, along with the dropping temperature and growing number of troops joining the Russian army as they approach Moscow.
+
+![Minard's March on Moscow](Minard.png)
+
+By <a href="https://en.wikipedia.org/wiki/Charles_Minard" class="extiw" title="w:Charles Minard">Charles Minard</a> (1781–1870) - see upload log, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=297925">Link</a>
+
+What are the main principles that Charles Minard followed in his amazing March on Moscow data visualization? Here are the main ones that I (Rich McCue) think apply, but do you agree?
+
+Multimedia principle
+: Images (numbers of troops over time & temperature) and text (dates, locations, temperature & troop number labels) and effectively combined.  
+
+Split-attention principle
+: the text and images are well integrated.  
+
+Redundancy principle
+: There is some redundancy between the graphics and text, but not enough for me to find distracting. Do you find it distracting?
+
+What could Charles have taken better advantage of? Do you agree with my assessment?
+
+Modality principle
+: People learn better from graphics and narration than from graphics and printed text. While true, when Charles made this data visualization in the 1800s there was no video format available to him to use. Adding an audio narration, and removing some of the text labels could make a nice modern update to this data visualization classic.
+
+Signalling principle
+: While overall I think Charles did a good job with the visualization of the size of the armies over time, I think he could have done a better job of signalling when battles took place by maybe highlighting the battles with a red dot or something similar. What do you think?
+
+[Check out this explainer of Charles Minard’s March on Moscow data visualization.](https://brilliantmaps.com/napoleons-invasion-infograhic/)
+
+### Income & Life Expectancy 1800 – 2020 by Hans Rosling
+
+> “The Swedish scientist Hans Rosling had been working with developmental data for over 30 years – but it took a great visualization and a highly entertaining 2-minute video based on his 2007 TED talk for him to share his passion with the world. His original visualization shows the relationship between income and life expectancy. The data is simple but Rosling’s visual storytelling has allowed him to spread his passion for this fascinating, overlooked data to millions.” 
+
+Please click on the animated GIF below to explore Hans’ wonderful interactive data visualization tool that he called The Gapminder.
+
+
+[Income and Life Expectancy – Hans Rosling – Gapminder](https://www.gapminder.org/tools/#$chart-type=bubbles&url=v2)
+
+What are the main that Hans Rosling followed in his income & life expectancy visualization? Do you agree?
+
+Multimedia principle
+: Images (numbers of troops over time & temperature) and text (dates, locations, temperature & troop number labels) and effectively combined.
+
+Split-attention principle
+: the text and images are well integrated.
+
+Modality principle
+: In Hans’ [Ted talk](https://www.youtube.com/watch?v=hVimVzgtD6w) he does a wonderful job of narrating his data visualization.
+
+Redundancy principle
+: There not much in the way of redundancy between the graphics and text.
+
+Signalling principle
+: The moving dots that change in size as populations change is size does a great job of signalling the key changes happening over time.
+
+Segmenting principle
+: Because this is an interactive tool, learners can go at their own pace and review as many times as they like.
+What do you think that could Hans have taken better advantage of?
+
+
+### The 2014 State of the Union address Interactive Visualization
+
+[Interactive 2014 State of the Union address](https://twitter.github.io/interactive/sotu2014/#p1)
+
+This is an amazing mashup data visualization of the text of the 2014 State of the Union address with minute-by-minute Twitter responses based on topic and geographic location. You can “explore the speech and see the real-time reaction on Twitter. Scroll to a paragraph to see the volume of Tweets, the subjects debated on Twitter and where people are talking about them across the US. Click the spikes on the chart and see which paragraphs are being talked about most. 
+
+What are the main that the State of the Union visualizations followed? Would you change it in any way?
+
+## Reflection Exercise
+
+Before we move on to the hands-on portion of this week’s topic, please think back to one or two data visualizations that you can recall, and ask yourself the following questions:
+
+- What data visualizations can you remember seeing recently (even if it’s a visualization you’ve seen in this week’s topic)?   
+- Did any of the charts you can recall having an impact on how you live your daily life?  
+- Have you created any data visualization recently? Did you follow (on purpose or not) any multimedia learning principles? Given your increasing knowledge of multimedia principles would you change anything about the design or content of your visualization?  
+
+## Hands-on Exercises
+
+Let’s further develop our data visualization skills by picking one of the two workshops below to complete. Typically people who are earning Business or Economics degrees tend to get the most out of using Tableau and everyone else tends to learn some very useful visualization skills in the Data Visualization Tools workshop. Both Tableau, and the other software tools and be very helpful in helping you tell persuasive multimedia stories.
+
+Data Visualization Tools workshop
+After watching the introductory video, pick 2 or 3 of the most interesting tools below and then work through the handouts. If you get stuck or have any questions please either email Rich, or even better attend our Wednesday lab, or office hours on Thursday or Friday. Have fun!
+
+{{< video https://youtu.be/3Qig3Npy-BY?si=gp8Dsz4EsvfjwSxe >}} (7 min)
+
+### Data Visualization workshop activities:
+
+- Make a Word Cloud with Word Art. 
+- Make a Timeline with Timeline.js. 
+- Create a Narrative Map with StoryMap.js. 
+- Data Visualization with Tableau Workshop
+
+Tableau is a great tool for Business or Economics majors. After watching the introductory video, work through the activities in order, and if you get stuck or have any questions please either email Rich and he will forward your question on to a graduate students who works in the DSC and is a Tableau expert. Have fun!
+
+
+{{< video https://youtu.be/2CuaT90NhPY?si=8sOnOmyLtIMUgWnA >}} (11 min)
+
+ 

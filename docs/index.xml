@@ -23,6 +23,17 @@
   <media:content url="https://cmadland.github.io/edci337/posts/jun-15/grocery-getter.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Week 6b - June 15</title>
+  <dc:creator>Colin Madland</dc:creator>
+  <link>https://cmadland.github.io/edci337/posts/jun-15b/</link>
+  <description><![CDATA[ This post was originally published by Rich McCue in 2021. I have updated some things for date-relevance and broken links. There are some overlaps with Mary Watt’s post. ]]></description>
+  <category>summer 2026</category>
+  <category>dataviz</category>
+  <guid>https://cmadland.github.io/edci337/posts/jun-15b/</guid>
+  <pubDate>Mon, 15 Jun 2026 07:00:00 GMT</pubDate>
+  <media:content url="https://cmadland.github.io/edci337/posts/jun-15b/stained-glass-florence.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Week 3 - May 27</title>
   <dc:creator>Colin Madland</dc:creator>
   <link>https://cmadland.github.io/edci337/posts/may-27/</link>
@@ -101,7 +112,7 @@
   <link>https://cmadland.github.io/edci337/posts/hibbitts-jun-8/</link>
   <description><![CDATA[ <strong>Follow along • Try it out • Apply it later</strong> ]]></description>
   <guid>https://cmadland.github.io/edci337/posts/hibbitts-jun-8/</guid>
-  <pubDate>Mon, 15 Jun 2026 18:39:59 GMT</pubDate>
+  <pubDate>Mon, 15 Jun 2026 19:15:46 GMT</pubDate>
 </item>
 </channel>
 </rss>
